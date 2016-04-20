@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Economic Development, Culture and Tourism
 resources:
-- format: docx
+- format: DOCX
   name: Door Open 2015 Readme
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/DOTOpenData.docx

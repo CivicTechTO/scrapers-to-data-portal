@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Transportation Services
 resources:
-- format: zip
+- format: ZIP
   name: Bicycle Parking (Indoor - WGS84)
   url: http://opendata.toronto.ca/gcc/bicycle_parking_indoor_wgs84.zip
-- format: zip
+- format: ZIP
   name: Bicycle Parking (Indoor - MTM3)
   url: http://opendata.toronto.ca/gcc/bicycle_parking_indoor_mtm3.zip
 - format: ''

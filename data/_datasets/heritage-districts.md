@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'City Planning '
 resources:
-- format: zip
+- format: ZIP
   name: Heritage Districts (WGS84)
   url: http://opendata.toronto.ca/gcc/ODheritage_districts_wgs84.zip
-- format: zip
+- format: ZIP
   name: Heritage Districts (MTM3)
   url: http://opendata.toronto.ca/gcc/ODheritage_districts_mtm3.zip
 - format: ''

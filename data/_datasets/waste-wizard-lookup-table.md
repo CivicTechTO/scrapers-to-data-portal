@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Solid Waste Management Services '
 resources:
-- format: xlsx
+- format: XLSX
   name: Waste Wizard Lookup Table
   url: http://opendata.toronto.ca/solid.waste/waste.management/WasteWizard_Item_Description.xlsx
 schema: default

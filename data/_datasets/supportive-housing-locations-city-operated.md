@@ -5,13 +5,13 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Long-Term Care Homes and Services
 resources:
-- format: xls
+- format: XLS
   name: Supportive Housing Locations Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/SupportiveHousingLocationsReadme.xls
-- format: zip
+- format: ZIP
   name: Supportive Housing Locations (WGS84)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/supportiveHousingLocationsWGS84.zip
-- format: zip
+- format: ZIP
   name: Supportive Housing Locations (MTM3)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/supportiveHousingLocationsMTM3.zip
 - format: ''

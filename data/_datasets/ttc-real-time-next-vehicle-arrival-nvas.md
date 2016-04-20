@@ -5,7 +5,7 @@ maintainer_email: opendata@ttc.ca
 notes: ''
 organization: 'Toronto Transit Commission '
 resources:
-- format: pdf
+- format: PDF
   name: XML Feed Documentation
   url: http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf
 schema: default

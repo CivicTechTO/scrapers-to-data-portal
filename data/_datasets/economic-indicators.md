@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Economic Development
 resources:
-- format: xlsx
+- format: XLSX
   name: Economic Indicators Database
   url: http://opendata.toronto.ca/it/com/economic_indicators.xlsx
 schema: default

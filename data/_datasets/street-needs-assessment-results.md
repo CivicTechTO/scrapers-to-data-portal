@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Shelter, Support and Housing Administration '
 resources:
-- format: xlsx
+- format: XLSX
   name: Street Needs Assessment Results
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/SNA2013.xlsx

@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Geospatial Competency Centre '
 resources:
-- format: zip
+- format: ZIP
   name: Property Boundaries (MTM3)
   url: http://opendata.toronto.ca/gcc/property_bnds_gcc_mtm3.zip
-- format: zip
+- format: ZIP
   name: Property Boundaries (WGS84)
   url: http://opendata.toronto.ca/gcc/property_bnds_gcc_wgs84.zip
 - format: ''

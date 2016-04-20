@@ -5,7 +5,7 @@ maintainer_email: clerk@toronto.ca
 notes: ''
 organization: 'City Clerk''s Office, Secretariat '
 resources:
-- format: txt
+- format: TXT
   name: Councillors Voting Record Readme File
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/CouncillorsVotingRecordReadme.txt.txt
 - format: ''

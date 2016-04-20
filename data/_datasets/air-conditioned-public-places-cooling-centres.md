@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Toronto Public Health
 resources:
-- format: html
+- format: HTML
   name: Air Conditioned Public Places and Cooling Centres Readme
   url: http://app.toronto.ca/opendata/ac_locations/locations/details.html
 - format: '00'

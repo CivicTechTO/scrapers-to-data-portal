@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Transportation Services
 resources:
-- format: zip
+- format: ZIP
   name: Bicycle Trail Entrance(WGS84)
   url: http://opendata.toronto.ca/gcc/bicycle_trail_entrance_wgs84.zip
-- format: zip
+- format: ZIP
   name: Bicycle Trail Entrance(MTM3)
   url: http://opendata.toronto.ca/gcc/bicycle_trail_entrance_mtm3.zip
 - format: ''

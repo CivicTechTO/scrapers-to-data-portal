@@ -8,7 +8,7 @@ resources:
 - format: ''
   name: Councillors' Meeting Attendance
   url: http://app.toronto.ca/tmmis/getAdminReport.do?function=prepareMemberAttendanceReport
-- format: txt
+- format: TXT
   name: Councillors' Meeting Attendance Readme file
   url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/Councillors__Attendance_Record_Readme.txt
 schema: default

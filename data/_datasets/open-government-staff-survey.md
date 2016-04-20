@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: City Clerk's Office
 resources:
-- format: xlsx
+- format: XLSX
   name: ' Open Government Staff Survey Result (2015)'
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/OpenGovernmentSurvey2015.xlsx

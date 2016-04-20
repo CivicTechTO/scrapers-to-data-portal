@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Transportation Services
 resources:
-- format: zip
+- format: ZIP
   name: Bicycle Shop(WGS84)
   url: http://opendata.toronto.ca/gcc/bicycle_shop_wgs84.zip
-- format: zip
+- format: ZIP
   name: Bicycle Shop(MTM3)
   url: http://opendata.toronto.ca/gcc/bicycle_shop_mtm3.zip
 - format: ''

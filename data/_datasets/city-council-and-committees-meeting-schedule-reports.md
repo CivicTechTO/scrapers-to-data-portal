@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'City Clerk''s Office, Secretariat '
 resources:
-- format: txt
+- format: TXT
   name: City Council and Committees Meeting Schedule Reports Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/readme.txt
 - format: ''

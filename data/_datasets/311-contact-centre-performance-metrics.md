@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 311 Contact Centre
 resources:
-- format: xls
+- format: XLS
   name: Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/311_performance_metrics_readme.xls
 - format: ''

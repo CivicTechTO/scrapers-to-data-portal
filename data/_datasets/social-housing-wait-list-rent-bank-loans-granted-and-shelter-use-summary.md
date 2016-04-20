@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Shelter, Support and Housing Administration '
 resources:
-- format: xls
+- format: XLS
   name: SSHA Social Housing Summary Readme
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_SocialHousingWaitLoansandUseSummaryReadme.xls
-- format: xls
+- format: XLS
   name: SSHA Social Housing Summary Data
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_SSHA.xls
 schema: default

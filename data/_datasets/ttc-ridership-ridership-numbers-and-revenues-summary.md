@@ -5,10 +5,10 @@ maintainer_email: opendata@ttc.ca
 notes: ''
 organization: 'Toronto Transit Commission '
 resources:
-- format: xls
+- format: XLS
   name: TTC Ridership Summary Readme
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_TTCRidershipNosRevenueSummaryReadme.xls
-- format: xls
+- format: XLS
   name: TTC Ridership Summary Data
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_TTC.xls
 schema: default

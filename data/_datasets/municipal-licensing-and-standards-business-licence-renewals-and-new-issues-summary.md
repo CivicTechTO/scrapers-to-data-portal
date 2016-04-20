@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Municipal Licensing and Standards '
 resources:
-- format: xls
+- format: XLS
   name: MLS Business Licence Renewals and New Issues Readme
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_mlsBusinessLicenseRenewalNonRenewalReadme.xls
-- format: xls
+- format: XLS
   name: MLS Business Licence Renewals and New Issues Data
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_MLS.xls
 schema: default

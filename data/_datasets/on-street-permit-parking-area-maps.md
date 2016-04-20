@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Transportation Services, Right of Way Management
 resources:
-- format: zip
+- format: ZIP
   name: On street parking(WGS84)
   url: http://opendata.toronto.ca/gcc/parking_permit_areas_wgs84.zip
-- format: zip
+- format: ZIP
   name: On street parking(MTM3)
   url: http://opendata.toronto.ca/gcc/parking_permit_areas_mtm3.zip
 - format: ''

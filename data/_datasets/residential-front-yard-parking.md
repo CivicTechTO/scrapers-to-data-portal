@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Transportation Services, Right of Way Management
 resources:
-- format: xml
+- format: XML
   name: Residential Front Yard Parking - XML
   url: http://opendata.toronto.ca/transportation/front.yard.parking/frontyardparking.xml
 schema: default

@@ -5,11 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Revenue Services
 resources:
-- format: xls
+- format: XLS
   name: Rebates and Exemptions Readme
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/tax_rebates_exemptions_readme.xls
-- format: xls
+- format: XLS
   name: Tax Rebates / Tax Exemptions
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/tax_rebates_exemptions.xls

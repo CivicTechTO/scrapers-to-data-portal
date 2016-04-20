@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Emergency Medical Services
 resources:
-- format: zip
+- format: ZIP
   name: Ambulance Station Location (WGS84)
   url: http://opendata.toronto.ca/gcc/ambulance_facility_wgs84.zip
-- format: zip
+- format: ZIP
   name: Ambulance Station Location (MTM 3 NAD 27)
   url: http://opendata.toronto.ca/gcc/ambulance_facility_mtm3.zip
 - format: ''

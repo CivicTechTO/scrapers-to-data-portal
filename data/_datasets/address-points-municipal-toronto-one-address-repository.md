@@ -5,14 +5,14 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Geospatial Competency Centre '
 resources:
-- format: txt
+- format: TXT
   name: Readme - Address Feature Codes
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/readme_address_points_Jan2013.txt
-- format: zip
+- format: ZIP
   name: Municipal Address Points (MTM 3 Degree Zone 10, NAD27)
   url: http://opendata.toronto.ca/gcc/address_points_mtm3.zip
-- format: zip
+- format: ZIP
   name: Municipal Address Points (WGS84 - Latitude / Longitude)
   url: http://opendata.toronto.ca/gcc/address_points_wgs84.zip
 - format: ''

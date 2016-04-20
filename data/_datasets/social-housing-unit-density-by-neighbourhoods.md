@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Shelter Support & Housing Administration - Hostel Services
 resources:
-- format: xlsx
+- format: XLSX
   name: Social Housing Unit Density by Neighbourhoods
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/SHU_DensityByNeighbourhood.xlsx

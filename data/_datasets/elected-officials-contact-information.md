@@ -5,11 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: City Clerk's Office
 resources:
-- format: xlsx
+- format: XLSX
   name: Elected Officials' Contact Read Me
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Toronto_Elected_Officials_Readme.xlsx
-- format: csv
+- format: CSV
   name: Elected Officials' Contact
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Toronto_Elected_Officials.csv

@@ -5,13 +5,13 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Toronto District School Board
 resources:
-- format: zip
+- format: ZIP
   name: TDSB School Locations (WGS1984)
   url: http://opendata.toronto.ca/gcc/school_tdsb_wgs84.zip
-- format: zip
+- format: ZIP
   name: TDSB School Locations (UTM Zone 17N)
   url: http://opendata.toronto.ca/gcc/school_tdsb_utm6.zip
-- format: zip
+- format: ZIP
   name: TDSB School Locations (MTM 3 Degree Zone 10)
   url: http://opendata.toronto.ca/gcc/school_tdsb_mtm3.zip
 - format: ''

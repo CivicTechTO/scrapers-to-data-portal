@@ -5,13 +5,13 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Economic Development & Culture
 resources:
-- format: xls
+- format: XLS
   name: Places of Interest (Tabular)
   url: http://opendata.toronto.ca/gcc/places_of_interest.xls
-- format: zip
+- format: ZIP
   name: Places of Interest (WGS84)
   url: http://opendata.toronto.ca/gcc/places_of_interest_wgs84.zip
-- format: zip
+- format: ZIP
   name: Places of Interest (MTM3)
   url: http://opendata.toronto.ca/gcc/places_of_interest_mtm3.zip
 - format: ''

@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Fleet Services
 resources:
-- format: xlsx
+- format: XLSX
   name: Vehicles Utilizing Green Technology
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/List of Active Green Units.xlsx

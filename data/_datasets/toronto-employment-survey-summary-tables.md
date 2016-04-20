@@ -5,11 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'City Planning '
 resources:
-- format: xls
+- format: XLS
   name: Employment Survey Readme
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/toronto_employment_survey_readme.xls
-- format: xlsx
+- format: XLSX
   name: Toronto Employment Survey Summary Tables
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/toronto_employment_survey.xlsx

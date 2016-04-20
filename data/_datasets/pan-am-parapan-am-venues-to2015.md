@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: TO2015
 resources:
-- format: zip
+- format: ZIP
   name: Pan Am Venues (WGS84)
   url: http://opendata.toronto.ca/gcc/pan_am_venues_public_wgs84.zip
-- format: zip
+- format: ZIP
   name: Pan Am Venues (MTM3)
   url: http://opendata.toronto.ca/gcc/pan_am_venues_public_mtm3.zip
 schema: default

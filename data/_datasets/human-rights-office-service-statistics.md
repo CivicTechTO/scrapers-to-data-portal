@@ -5,11 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Equity, Diversity and Human Rights
 resources:
-- format: xlsx
+- format: XLSX
   name: Human Rights Office Service Statistics Read Me
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/HumanRightStatisticsReadme.xlsx
-- format: xls
+- format: XLS
   name: Human Rights Office Service Statistics Data
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/HumanRightStatistics.xls

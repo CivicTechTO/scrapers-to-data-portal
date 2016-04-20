@@ -5,16 +5,16 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Municipal Licensing & Standards, Investigative Services
 resources:
-- format: xlsx
+- format: XLSX
   name: Readme
   url: http://opendata.toronto.ca/mls/investigation.activities/investigation_readme.xlsx
-- format: xsd
+- format: XSD
   name: XML schema
   url: http://opendata.toronto.ca/mls/investigation.activities/investigation.xsd
-- format: zip
+- format: ZIP
   name: XML Zip File
   url: http://opendata.toronto.ca/mls/investigation.activities/investigation.zip
-- format: zip
+- format: ZIP
   name: CSV zip file
   url: http://opendata.toronto.ca/mls/investigation.activities/investigation_csv.zip
 schema: default

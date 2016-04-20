@@ -5,13 +5,13 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Toronto Building Plan Review Section
 resources:
-- format: xls
+- format: XLS
   name: Toronto Building - Active Permits Readme
   url: http://opendata.toronto.ca/building/active.permits/BuildingPermitsActiveReadme.xls
-- format: zip
+- format: ZIP
   name: Active Permits in CSV
   url: http://opendata.toronto.ca/building/active.permits/activepermits_csv.zip
-- format: zip
+- format: ZIP
   name: Active Permits in XML
   url: http://opendata.toronto.ca/building/active.permits/activepermits.zip
 schema: default

@@ -5,11 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Municipal Licensing & Standards - Toronto Animal Services
 resources:
-- format: xlsx
+- format: XLSX
   name: Top 25 Licenced Dog Names
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Top 25 Licenced Dog Names - Oct 31 20014.xlsx
-- format: xlsx
+- format: XLSX
   name: Top 25 Licenced Cats Names
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Top 25 Licenced Cats Names - Oct 31 20014.xlsx

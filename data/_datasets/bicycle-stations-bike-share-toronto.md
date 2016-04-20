@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Transportation Services, Cycling Infrastructure & Programs '
 resources:
-- format: txt
+- format: TXT
   name: Bike Share Stations Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/bicycle_stations_bixi_readme.txt
-- format: xml
+- format: XML
   name: Bixi Locations - live feed
   url: http://www.bikesharetoronto.com/data/stations/bikeStations.xml
 - format: ''

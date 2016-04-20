@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Parks, Forestry and Recreation '
 resources:
-- format: xls
+- format: XLS
   name: PFR Program Activity Summary Data Readme
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_pfr_activity_summary_readme.xls
-- format: xls
+- format: XLS
   name: PFR Program Activity Summary Data
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_PFR.xls
 schema: default

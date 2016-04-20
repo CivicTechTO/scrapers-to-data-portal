@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: City Clerk's Office
 resources:
-- format: xlsx
+- format: XLSX
   name: Advance Poll Voter Turnout 2014
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Daily Totals_Advance Vote 2014.xlsx

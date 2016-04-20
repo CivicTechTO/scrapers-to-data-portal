@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Revenue Services
 resources:
-- format: xlsx
+- format: XLSX
   name: Tax Credit
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/UnseveredPropTaxCredits.xlsx

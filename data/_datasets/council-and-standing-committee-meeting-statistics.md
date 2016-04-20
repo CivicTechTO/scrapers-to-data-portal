@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: City Clerk's Office
 resources:
-- format: xls
+- format: XLS
   name: Committee Meeting Statistics Readme
   url: http://opendata.toronto.ca/it/com/council_standing_committee_meeting_stats_readme.xls
 - format: CSV

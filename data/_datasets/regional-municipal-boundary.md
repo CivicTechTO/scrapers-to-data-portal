@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Surveys and Mapping
 resources:
-- format: zip
+- format: ZIP
   name: Toronto Boundary (MTM3)
   url: http://opendata.toronto.ca/gcc/torontoBoundary_mtm3.zip
-- format: zip
+- format: ZIP
   name: Toronto Boundary (WGS84)
   url: http://opendata.toronto.ca/gcc/torontoBoundary_wgs84.zip
 - format: ''

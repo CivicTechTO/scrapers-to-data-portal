@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Social Development, Finance & Administration
 resources:
-- format: zip
+- format: ZIP
   name: Early Years Centre (WGS84)
   url: http://opendata.toronto.ca/gcc/early_years_wgs84.zip
-- format: zip
+- format: ZIP
   name: Early Years Centres (MTM3)
   url: http://opendata.toronto.ca/gcc/early_years_mtm3.zip
 - format: ''

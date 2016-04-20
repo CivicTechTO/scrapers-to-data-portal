@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Transportation Services
 resources:
-- format: zip
+- format: ZIP
   name: Bicycle Parking (On Street - MTM3)
   url: http://opendata.toronto.ca/gcc/bicycle_parking_on_street_mtm3.zip
-- format: zip
+- format: ZIP
   name: Bicycle Parking (On Street - WGS84)
   url: http://opendata.toronto.ca/gcc/bicycle_parking_on_street_wgs84.zip
 - format: ''

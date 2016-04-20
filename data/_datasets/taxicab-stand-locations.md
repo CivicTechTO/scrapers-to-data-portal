@@ -5,13 +5,13 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Municipal Licensing and Standards '
 resources:
-- format: xls
+- format: XLS
   name: Taxicab Stand Locations (Excel)
   url: http://opendata.toronto.ca/gcc/taxicab_stands_listing.xls
-- format: zip
+- format: ZIP
   name: Taxicab Stand Locations (WGS84)
   url: http://opendata.toronto.ca/gcc/taxicab_stands_wgs84.zip
-- format: zip
+- format: ZIP
   name: Taxicab Stand Locations (MTM3)
   url: http://opendata.toronto.ca/gcc/taxicab_stands_mtm3.zip
 - format: ''

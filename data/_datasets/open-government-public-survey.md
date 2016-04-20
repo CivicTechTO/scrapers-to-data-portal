@@ -5,11 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: City Clerk's Office
 resources:
-- format: xlsx
+- format: XLSX
   name: "Open Government Public Survey Results \u2013 Full Details"
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/City of Toronto Open Government_BAN1.xlsx
-- format: xlsx
+- format: XLSX
   name: "Open Government Public Survey Results \u2013 Summary "
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/City of Toronto Open Government_BAN2.xlsx

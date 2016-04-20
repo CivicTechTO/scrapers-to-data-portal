@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Accounting Services Division '
 resources:
-- format: xlsx
+- format: XLSX
   name: Unclaimed Deposits ReadMe
   url: http://opendata.toronto.ca/it/com/UnclaimedDepositsReadMe.xlsx
-- format: xlsx
+- format: XLSX
   name: Unclaimed Deposits
   url: http://opendata.toronto.ca/it/com/UnclaimedDeposits.xlsx
 schema: default

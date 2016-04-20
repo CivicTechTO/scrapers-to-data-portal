@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Economic Development, Culture and Tourism
 resources:
-- format: zip
+- format: ZIP
   name: Business Improvement Areas Data (MTM3)
   url: http://opendata.toronto.ca/gcc/business_improvement_areas_mtm3.zip
-- format: zip
+- format: ZIP
   name: Business Improvement Areas Data (WGS84)
   url: http://opendata.toronto.ca/gcc/business_improvement_areas_wgs84.zip
 - format: ''

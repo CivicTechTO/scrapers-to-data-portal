@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Social Development, Finance & Administration
 resources:
-- format: xlsx
+- format: XLSX
   name: Wellbeing Toronto - Recreation
   url: http://opendata.toronto.ca/social.development/wellbeing/WB-Recreation.xlsx
 schema: default

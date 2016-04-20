@@ -5,13 +5,13 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: City Clerks
 resources:
-- format: xls
+- format: XLS
   name: Web Analytics Readme
   url: http://opendata.toronto.ca/it/com/web_analytics_readme.xls
-- format: zip
+- format: ZIP
   name: Web Analytics Monthly Report
   url: http://opendata.toronto.ca/it/com/web_analytics_monthly_csv.zip
-- format: zip
+- format: ZIP
   name: Web Analytics Weekly Report
   url: http://opendata.toronto.ca/it/com/web_analytics_weekly_csv.zip
 schema: default

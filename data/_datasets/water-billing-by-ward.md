@@ -6,7 +6,7 @@ notes: ''
 organization: 'Revenue Services (Utility Billing, Meter Services and Parking Tags
   Section) '
 resources:
-- format: xls
+- format: XLS
   name: Water Billing Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/WaterBillingDatabyWardReadme.xls
 - format: ZIP

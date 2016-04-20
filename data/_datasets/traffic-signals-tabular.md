@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Transportation Services - Traffic Management Centre '
 resources:
-- format: doc
+- format: DOC
   name: Traffic Signal Tabular Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/traffic_signals_tabular_readme.doc
 - format: '0'

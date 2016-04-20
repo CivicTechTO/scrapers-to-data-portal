@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Solid Waste Management Services '
 resources:
-- format: zip
+- format: ZIP
   name: SWMS Districts (MTM3)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/swms_districts_mtm3_July2012.zip
-- format: zip
+- format: ZIP
   name: SWMS Districts (WGS84)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/swms_districts_wgs84_July2012.zip
 - format: ''

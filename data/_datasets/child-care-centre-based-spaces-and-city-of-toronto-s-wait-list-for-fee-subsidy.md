@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Children's Services
 resources:
-- format: xls
+- format: XLS
   name: Child care -  centre based spaces and fee subsidy waitlist Readme
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_ChildcareVacancySubsidyWaitListReadme.xls
-- format: xls
+- format: XLS
   name: Child care  - centre based spaces and fee subsidy waitlist data
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_Childrens_Services.xls
 schema: default

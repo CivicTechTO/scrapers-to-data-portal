@@ -5,31 +5,31 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Solid Waste Management Services '
 resources:
-- format: xlsx
+- format: XLSX
   name: Pickup Schedule 2016 (Excel)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Pickup Schedule 2016.xlsx
-- format: csv
+- format: CSV
   name: Pickup Schedule 2016 (CSV)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Pickup Schedule 2016.csv
-- format: txt
+- format: TXT
   name: Pickup Schedule 2016 (TXT)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Pickup Schedule 2016.txt
-- format: xlsx
+- format: XLSX
   name: Pickup Schedule Sept2014 - Dec 2015 (Excel)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Sept2014 - Dec 2015 Calendars.xlsx
-- format: csv
+- format: CSV
   name: Pickup Schedule Sept2014 - Dec 2015 (CSV)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Sept2014 - Dec 2015 Calendars.csv
-- format: txt
+- format: TXT
   name: Pickup Schedule Sept2014 - Dec 2015 (Text)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Sept2014 - Dec 2015 Calendars.txt
-- format: xls
+- format: XLS
   name: Readme file
   url: http://opendata.toronto.ca/solid.waste/pickup.schedule/readme.xls
 schema: default

@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Toronto Public Health
 resources:
-- format: html
+- format: HTML
   name: Bodysafe Readme
   url: http://app.toronto.ca/opendata/bodysafe/full_list/details.html
 - format: ''

@@ -5,11 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Revenue Services
 resources:
-- format: txt
+- format: TXT
   name: Parking Ticket Trial Readme
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/parking_ticket_trials_readme.txt
-- format: zip
+- format: ZIP
   name: Parking Ticket Trial Data
   url: http://opendata.toronto.ca/revenue/parking/trial/Parking_Ticket_Trials.zip
 schema: default

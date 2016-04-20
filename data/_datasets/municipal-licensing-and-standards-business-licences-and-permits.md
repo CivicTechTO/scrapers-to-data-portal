@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Municipal Licensing and Standards '
 resources:
-- format: xls
+- format: XLS
   name: Business Licence Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/mls_business_licences_permits_readme.xls
-- format: csv
+- format: CSV
   name: Business Licences
   url: http://opendata.toronto.ca/mls/business.licences/business.licences.csv
 schema: default

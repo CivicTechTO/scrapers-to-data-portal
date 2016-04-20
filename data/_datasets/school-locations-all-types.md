@@ -5,10 +5,10 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Toronto Police Services
 resources:
-- format: zip
+- format: ZIP
   name: "School Locations \u2013 All Types (MTM3)"
   url: http://opendata.toronto.ca/gcc/school_frm_police_mtm3.zip
-- format: zip
+- format: ZIP
   name: "School Locations \u2013 All Types (WGS84)"
   url: http://opendata.toronto.ca/gcc/school_frm_police_wgs84.zip
 - format: ''
