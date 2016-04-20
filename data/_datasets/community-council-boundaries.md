@@ -12,5 +12,5 @@ resources:
   name: Community Council Boundaries (MTM3)
   url: http://opendata.toronto.ca/gcc/community_council_mtm3.zip
 schema: default
-title: 'Community Council Boundaries '
+title: Community Council Boundaries
 ---

@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Corporate Finance '
+organization: Corporate Finance
 resources:
 - format: XLS
   name: Municipal Land Transfer Tax Revenue Summary Readme

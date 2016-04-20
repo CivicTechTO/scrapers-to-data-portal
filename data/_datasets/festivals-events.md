@@ -3,8 +3,8 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: '    Economic Development & Culture Division, Event Marketing & Visitor
-  Services Unit'
+organization: Economic Development & Culture Division, Event Marketing & Visitor Services
+  Unit
 resources:
 - format: XLS
   name: Festivals and Events Readme

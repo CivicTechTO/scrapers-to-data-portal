@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Municipal Licensing and Standards '
+organization: Municipal Licensing and Standards
 resources:
 - format: XLS
   name: Taxicab Stand Locations (Excel)

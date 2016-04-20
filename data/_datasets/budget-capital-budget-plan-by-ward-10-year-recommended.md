@@ -3,10 +3,10 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Financial Planning '
+organization: Financial Planning
 resources:
 - format: XLS
-  name: 'Capital Budget (Staff Recommended) Readme File '
+  name: Capital Budget (Staff Recommended) Readme File
   url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/Capital_Budget_&_Plan_By_Ward_(10_Yr_Recommended)_Readme.xls
 - format: XLS
   name: 2012 to 2021 Staff Recommended Capital Budget and Plan

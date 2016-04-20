@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'City Planning '
+organization: City Planning
 resources:
 - format: ZIP
   name: Heritage Register (WGS84)
@@ -12,5 +12,5 @@ resources:
   name: Heritage Register (MTM3)
   url: http://opendata.toronto.ca/gcc/ODheritage_inventory_mtm3.zip
 schema: default
-title: 'Heritage Register '
+title: Heritage Register
 ---

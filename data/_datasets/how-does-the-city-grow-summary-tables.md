@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'City Planning '
+organization: City Planning
 resources:
 - format: XLS
   name: How Does The City Grow Readme

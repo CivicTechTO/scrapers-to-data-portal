@@ -15,5 +15,5 @@ resources:
   name: Active Permits in XML
   url: http://opendata.toronto.ca/building/active.permits/activepermits.zip
 schema: default
-title: 'Building Permits - Active Permits '
+title: Building Permits - Active Permits
 ---

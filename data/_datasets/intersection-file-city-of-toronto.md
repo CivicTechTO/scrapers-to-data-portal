@@ -3,10 +3,10 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Geospatial Competency Centre '
+organization: Geospatial Competency Centre
 resources:
 - format: ZIP
-  name: '  Intersection File (MTM3)'
+  name: Intersection File (MTM3)
   url: http://opendata.toronto.ca/gcc/centreline_intersection_mtm3.zip
 - format: ZIP
   name: Intersection File (WGS84)

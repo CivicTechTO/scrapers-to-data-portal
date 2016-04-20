@@ -3,7 +3,7 @@ category: ''
 maintainer: TTC Open Data
 maintainer_email: opendata@ttc.ca
 notes: ''
-organization: 'Toronto Transit Commission '
+organization: Toronto Transit Commission
 resources:
 - format: XLSX
   name: TTC Subway Station Usage

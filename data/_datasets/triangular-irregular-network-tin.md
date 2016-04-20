@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Geospatial Competency Centre '
+organization: Geospatial Competency Centre
 resources:
 - format: ZIP
   name: Triangular Irregular Network Polygon Data (East 1)

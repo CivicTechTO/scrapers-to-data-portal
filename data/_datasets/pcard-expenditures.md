@@ -3,7 +3,7 @@ category: ''
 maintainer: Pcard Expenditures
 maintainer_email: jbuck@toronto.ca
 notes: ''
-organization: 'Accounting Services Division '
+organization: Accounting Services Division
 resources:
 - format: XLS
   name: Readme File
@@ -12,5 +12,5 @@ resources:
   name: Pcard Expenses
   url: http://opendata.toronto.ca/accounting/pcard/expenditures.zip
 schema: default
-title: 'PCard Expenditures '
+title: PCard Expenditures
 ---

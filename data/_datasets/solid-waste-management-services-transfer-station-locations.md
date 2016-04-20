@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Solid Waste Management Services '
+organization: Solid Waste Management Services
 resources:
 - format: ZIP
   name: Transfer Stations (WGS84) Jan 2012
@@ -18,5 +18,5 @@ resources:
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default
-title: 'Solid Waste Management Services - Transfer Station Locations '
+title: Solid Waste Management Services - Transfer Station Locations
 ---

@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Solid Waste Management Services '
+organization: Solid Waste Management Services
 resources:
 - format: XLSX
   name: Waste Wizard Lookup Table

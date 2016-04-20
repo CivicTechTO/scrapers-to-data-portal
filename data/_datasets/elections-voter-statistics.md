@@ -6,7 +6,7 @@ notes: ''
 organization: City Clerks Office, Election & Registry Services
 resources:
 - format: XLS
-  name: ' Readme'
+  name: Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/elections-voter-statistics-readme.xls
 - format: XLS
   name: 2003 Voter Statistics

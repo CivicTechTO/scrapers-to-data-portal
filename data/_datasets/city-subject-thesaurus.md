@@ -12,5 +12,5 @@ resources:
   name: City Subject Thesaurus
   url: http://opendata.toronto.ca/clerk/controlled.vocabulary/subject_thesaurus.xml
 schema: default
-title: 'City Subject Thesaurus '
+title: City Subject Thesaurus
 ---

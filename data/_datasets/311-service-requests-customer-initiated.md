@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: '311 Toronto '
+organization: 311 Toronto
 resources:
 - format: ZIP
   name: 311 Service Requests (2015)

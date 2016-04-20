@@ -1,9 +1,9 @@
 ---
 category: ''
-maintainer: 'Geospatial Competency Centre '
+maintainer: Geospatial Competency Centre
 maintainer_email: gcc@toronto.ca
 notes: ''
-organization: 'Parks, Forestry and Recreation '
+organization: Parks, Forestry and Recreation
 resources:
 - format: ZIP
   name: Parks and Green Space (WGS84)

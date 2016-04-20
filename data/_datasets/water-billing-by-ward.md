@@ -3,8 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Revenue Services (Utility Billing, Meter Services and Parking Tags
-  Section) '
+organization: Revenue Services (Utility Billing, Meter Services and Parking Tags Section)
 resources:
 - format: XLS
   name: Water Billing Readme

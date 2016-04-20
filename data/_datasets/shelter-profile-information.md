@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Shelter, Support and Housing Administration '
+organization: Shelter, Support and Housing Administration
 resources:
 - format: XLS
   name: Readme

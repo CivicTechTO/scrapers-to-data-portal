@@ -12,5 +12,5 @@ resources:
   name: Lobbyist Registry Activity
   url: http://opendata.toronto.ca/lobbyist/lobby.activity/lobbyactivity.zip
 schema: default
-title: 'Lobbyist Registry '
+title: Lobbyist Registry
 ---

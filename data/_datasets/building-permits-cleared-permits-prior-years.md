@@ -15,7 +15,7 @@ resources:
   name: Cleared Permits (2001-2014) in XML
   url: http://opendata.toronto.ca/building/cleared.permits/TBPCleared2001_2014.zip
 - format: ZIP
-  name: ' Cleared Permits (2012) in CSV'
+  name: Cleared Permits (2012) in CSV
   url: http://opendata.toronto.ca/building/cleared.permits/clearedpermits2012_csv.zip
 - format: ZIP
   name: Cleared Permits (2012) in XML

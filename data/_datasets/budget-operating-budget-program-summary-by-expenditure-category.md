@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Financial Planning '
+organization: Financial Planning
 resources:
 - format: XLS
   name: Operating Budget Summary Readme

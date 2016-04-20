@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Urban Forestry '
+organization: Urban Forestry
 resources:
 - format: RAR
   name: Forest and Land Cover (2007)

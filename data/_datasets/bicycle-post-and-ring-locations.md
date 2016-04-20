@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Transportation Services, Cycling Infrastructure & Programs '
+organization: Transportation Services, Cycling Infrastructure & Programs
 resources:
 - format: ZIP
   name: Bike Rack Locations (MTM3)

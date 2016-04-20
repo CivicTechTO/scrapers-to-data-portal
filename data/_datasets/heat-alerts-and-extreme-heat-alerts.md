@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: "January 2nd, 2014\t"
+organization: January 2nd, 2014
 resources:
 - format: HTML
   name: Heat Alert Data Service Description

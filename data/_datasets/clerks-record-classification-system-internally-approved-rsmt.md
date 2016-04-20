@@ -12,7 +12,7 @@ resources:
   name: RCS Internal Source XML Schema File
   url: http://opendata.toronto.ca/clerk/rsmt/rsmtRcsInternal.xsd
 - format: XML
-  name: 'RCS Internal Source XML FileExternal '
+  name: RCS Internal Source XML FileExternal
   url: http://opendata.toronto.ca/clerk/rsmt/rsmtRcsInternal.xml
 schema: default
 title: Clerks - Record Classification System - Internally Approved (RSMT)

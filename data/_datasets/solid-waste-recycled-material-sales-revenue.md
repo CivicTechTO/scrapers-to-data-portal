@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Solid Waste Management Services '
+organization: Solid Waste Management Services
 resources:
 - format: XLS
   name: SWM Recycled Material Sales Revenue Readme

@@ -21,7 +21,7 @@ resources:
   url: http://opendata.toronto.ca/social.development/community.grants/Community Grants
     Allocations 2012.xls
 - format: XLS
-  name: 'Community Grants Allocations 2013 '
+  name: Community Grants Allocations 2013
   url: http://opendata.toronto.ca/social.development/community.grants/Community Grants
     Allocations 2013.xls
 - format: XLS

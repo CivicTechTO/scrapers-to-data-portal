@@ -15,10 +15,10 @@ class PortalSpider(scrapy.Spider):
 
     def parse_dataset(self, response):
         dataset = {
-                'title': response.css('h1[property=name]::text').extract()[0],
-                'owner': response.css('section.metadata dd:nth-of-type(1)::text').extract()[0],
-                'maintainer': response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/text()').extract()[0],
-                'maintainer_email': response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/a/text()').extract()[0],
+                'title': response.css('h1[property=name]::text').extract()[0].strip(),
+                'owner': response.css('section.metadata dd:nth-of-type(1)::text').extract()[0].strip(),
+                'maintainer': response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/text()').extract()[0].strip(),
+                'maintainer_email': response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/a/text()').extract()[0].strip(),
                 'resources': list(self.parse_resources(response)),
                 'url': response.url,
                 }
@@ -30,9 +30,9 @@ class PortalSpider(scrapy.Spider):
         for li in resource_section.xpath('.//li'):
             url = response.urljoin(li.css('a::attr(href)')[0].extract())
             unknown_filetype = ''
-            filetype = re.match(FILETYPE_RE, url).groupdict(unknown_filetype).get('filetype')
+            filetype = re.match(FILETYPE_RE, url).groupdict(unknown_filetype).get('filetype').upper()
             resource = {
-                    'name': li.xpath('./a/text()').extract()[0],
+                    'name': li.xpath('./a/text()').extract()[0].strip(),
                     'url': url,
                     'format': filetype,
                     }

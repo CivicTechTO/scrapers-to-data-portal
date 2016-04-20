@@ -1,6 +1,6 @@
 ---
 category: ''
-maintainer: 'Geospatial Competency Centre '
+maintainer: Geospatial Competency Centre
 maintainer_email: gcc@toronto.ca
 notes: ''
 organization: City Clerk

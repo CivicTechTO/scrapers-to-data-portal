@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Transportation Services - Traffic Management Centre '
+organization: Transportation Services - Traffic Management Centre
 resources:
 - format: XLSX
   name: Readme
@@ -19,7 +19,7 @@ resources:
   name: Road Restrictions (JSONP)
   url: http://www1.toronto.ca/transportation/roadrestrictions/RoadRestrictions.json
 - format: JSON
-  name: 'Road Restrictions (Version) '
+  name: Road Restrictions (Version)
   url: http://www1.toronto.ca/transportation/roadrestrictions/RoadRestrictionsSN.json
 schema: default
 title: Road Restrictions

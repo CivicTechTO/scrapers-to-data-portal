@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 'Toronto Public Health, Healthy Public Policy '
+organization: Toronto Public Health, Healthy Public Policy
 resources:
 - format: XLS
   name: Chemical Tracking Annual Report Readme
