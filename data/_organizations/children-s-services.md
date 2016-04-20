@@ -1,6 +1,6 @@
 ---
 description: null
-logo: null
+logo: http://ajournalofmusicalthings.com/wp-content/uploads/Toronto-logo.png
 official: true
 title: Children's Services
 website: null

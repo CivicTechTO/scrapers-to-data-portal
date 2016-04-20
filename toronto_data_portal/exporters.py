@@ -39,7 +39,7 @@ class JkanOrganizationItemExporter(BaseItemExporter):
             'title': item['owner'],
             'description': None,
             'website': None,
-            'logo': None,
+            'logo': 'http://ajournalofmusicalthings.com/wp-content/uploads/Toronto-logo.png',
             'official': True,
         }
         content = ''
