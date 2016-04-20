@@ -19,5 +19,6 @@ resources:
   name: Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/byelection-voter-stats-readme.xls
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=af29040a8d88d310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Elections - By-Election Voter Statistics
 ---

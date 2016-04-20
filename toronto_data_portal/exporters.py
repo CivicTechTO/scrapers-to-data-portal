@@ -11,15 +11,16 @@ class JkanDatasetItemExporter(BaseItemExporter):
 
     def export_item(self, item):
         frontmatter = {
-                'schema': 'default',
-                'title': item['title'],
-                'organization': item['owner'],
-                'notes': '',
-                'resources': item['resources'],
-                'category': '',
-                'maintainer': item['maintainer'],
-                'maintainer_email': item['maintainer_email'],
-                }
+            'schema': 'default',
+            'title': item['title'],
+            'organization': item['owner'],
+            'notes': '',
+            'source': item['url'],
+            'resources': item['resources'],
+            'category': '',
+            'maintainer': item['maintainer'],
+            'maintainer_email': item['maintainer_email'],
+        }
         content = ''
         content += '---\n'
         content += yaml.safe_dump(frontmatter, default_flow_style=False)
@@ -39,6 +40,7 @@ class JkanOrganizationItemExporter(BaseItemExporter):
             'description': None,
             'website': None,
             'logo': None,
+            'official': True,
         }
         content = ''
         content += '---\n'

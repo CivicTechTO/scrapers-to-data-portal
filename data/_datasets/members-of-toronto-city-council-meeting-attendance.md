@@ -12,5 +12,6 @@ resources:
   name: Councillors' Meeting Attendance Readme file
   url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/Councillors__Attendance_Record_Readme.txt
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=3c2409401385d210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: "Members of Toronto City Council \u2014 Meeting Attendance"
 ---

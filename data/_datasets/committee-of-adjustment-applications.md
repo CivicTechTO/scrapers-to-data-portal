@@ -57,5 +57,6 @@ resources:
   name: ReadMe (Attributes)
   url: http://opendata.toronto.ca/planning/coa/coa_attributes.xlsx
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=26b2871f6a2cc410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Committee of Adjustment Applications
 ---

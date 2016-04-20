@@ -9,5 +9,6 @@ resources:
   name: Wellbeing Toronto - Economics
   url: http://opendata.toronto.ca/social.development/wellbeing/WB-Economics.xlsx
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=aec380ece073b410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Wellbeing Toronto - Economics
 ---

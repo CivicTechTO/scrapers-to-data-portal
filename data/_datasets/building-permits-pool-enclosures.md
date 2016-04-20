@@ -15,5 +15,6 @@ resources:
   name: Toronto Building - Pool Permits
   url: http://opendata.toronto.ca/building/pool.permits/poolpermits.zip
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=2dddfa24d5e83310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Building Permits - Pool Enclosures
 ---

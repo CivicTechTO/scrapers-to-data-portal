@@ -13,5 +13,6 @@ resources:
   name: Doors Open 2015 Data (JSON)
   url: http://wx.toronto.ca/inter/culture/doorsopen.nsf/OpenDataDOTBuilding.JSON?OpenPage
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=c7248077bef0d410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Doors Open Toronto 2015
 ---

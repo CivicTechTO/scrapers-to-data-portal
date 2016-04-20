@@ -12,5 +12,6 @@ resources:
   name: Library Branch Locations
   url: http://www.torontopubliclibrary.ca/data/library-data.kml
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a7ae0ea14b661310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Toronto Public Library Branch Locations
 ---

@@ -15,5 +15,6 @@ resources:
   name: Toronto Building - Solar Water Heater Permits
   url: http://opendata.toronto.ca/building/solar.water.heater.permits/solarhotwater.xml
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=6efdfa24d5e83310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Building Permits - Solar Hot Water Heaters
 ---

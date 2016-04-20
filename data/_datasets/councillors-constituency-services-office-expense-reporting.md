@@ -22,5 +22,6 @@ resources:
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/TCER2_OpenData_2014_Q1-Q2_1.csv
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=e5608c6c6e68f310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Councillors' Constituency Services & Office Expense Reporting
 ---

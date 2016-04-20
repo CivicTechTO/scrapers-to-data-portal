@@ -33,5 +33,6 @@ resources:
   name: Pedestrian crossovers - CSV
   url: http://app.toronto.ca/opendata/cart/pedestrian_crossovers.csv?v=1.0
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=965b868b5535b210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Traffic Signals Tabular
 ---

@@ -12,5 +12,6 @@ resources:
   name: Head of Household Readme
   url: http://opendata.toronto.ca/employment.social/head.household/HeadOfHousehold_Readme.xlsx
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=6d6c48bf57f1d410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Head of household
 ---

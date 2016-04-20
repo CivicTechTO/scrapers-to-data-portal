@@ -22,5 +22,6 @@ resources:
   name: Road Restrictions (Version)
   url: http://www1.toronto.ca/transportation/roadrestrictions/RoadRestrictionsSN.json
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=1af0e69ae554e410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Road Restrictions
 ---

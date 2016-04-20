@@ -18,5 +18,6 @@ resources:
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/DOC_COTA_Consultation_Survey_Responses_2015.xlsx
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=853de2f05ec32510VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: City of Toronto Act (COTA) Consultation, 2015
 ---

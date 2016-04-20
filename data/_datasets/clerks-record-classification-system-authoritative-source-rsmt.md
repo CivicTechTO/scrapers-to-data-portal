@@ -15,5 +15,6 @@ resources:
   name: RCS Authoritative Source XML File
   url: http://opendata.toronto.ca/clerk/rsmt/rsmtRcsAuthoritative.xml
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ed112bd9ce466310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Clerks - Record Classification System - Authoritative Source (RSMT)
 ---

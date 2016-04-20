@@ -28,5 +28,6 @@ resources:
   name: Community Grants Allocations 2014
   url: http://opendata.toronto.ca/social.development/community.grants/Community%20Grants%20Allocations%202014.xls
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a6a9aa572acd5410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Community Grants Annual Allocations
 ---

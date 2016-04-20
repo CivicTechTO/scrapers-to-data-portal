@@ -13,5 +13,6 @@ resources:
   name: Stillbirth Registration Statistics Data
   url: http://opendata.toronto.ca/clerk/registry.service/stillbirth.csv
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=dc6ba9552dbfe310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Stillbirth Registration Statistics
 ---

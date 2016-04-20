@@ -21,5 +21,6 @@ resources:
   name: View Data (Zoom in to view map)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=6455da18d9f44410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Automatic External Defibrillators (AED) Locations
 ---

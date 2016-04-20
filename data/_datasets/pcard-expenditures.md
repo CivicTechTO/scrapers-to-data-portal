@@ -12,5 +12,6 @@ resources:
   name: Pcard Expenses
   url: http://opendata.toronto.ca/accounting/pcard/expenditures.zip
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=f7d66dc329171310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: PCard Expenditures
 ---

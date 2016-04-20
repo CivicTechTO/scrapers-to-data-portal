@@ -33,5 +33,6 @@ resources:
   name: Parking Tickets 2015
   url: http://opendata.toronto.ca/revenue/parking/ticket/parking_tickets_2015.zip
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Parking Tickets
 ---

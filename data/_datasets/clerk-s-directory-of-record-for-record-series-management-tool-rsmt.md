@@ -15,5 +15,6 @@ resources:
   name: RSMT Directory of Records XML File
   url: http://opendata.toronto.ca/clerk/rsmt/rsmtDirectoryOfRecords.xml
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=e80c2bd9ce466310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Clerk's Directory of Record for Record Series Management Tool (RSMT)
 ---

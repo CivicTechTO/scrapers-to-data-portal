@@ -15,5 +15,6 @@ resources:
   name: Shelter Profile 2010
   url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/appendix_B-_2010_per_diem_rates_for_purchase_of_service_shelter.xls
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=f20e5ec4f6500310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Shelter Profile Information
 ---

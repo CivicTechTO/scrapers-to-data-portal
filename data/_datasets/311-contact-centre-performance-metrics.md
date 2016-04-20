@@ -21,5 +21,6 @@ resources:
   name: Yearly Performance Metrics
   url: https://docs.google.com/spreadsheet/ccc?key=0AgucawU-mMI9dGpHNGZ4SmQtcXo4WHR3aUF2V004VWc&usp=sharing
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=8fa3b00f9630d310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: 311 Contact Centre Performance Metrics
 ---

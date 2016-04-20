@@ -33,5 +33,6 @@ resources:
   name: Readme file
   url: http://opendata.toronto.ca/solid.waste/pickup.schedule/readme.xls
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=2ee34b5073cfa310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Solid Waste Pickup Schedule
 ---

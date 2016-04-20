@@ -18,5 +18,6 @@ resources:
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/tenantnotification2015.xlsx
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=da40235722b0a410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Tenant Notification for Rent Reduction
 ---

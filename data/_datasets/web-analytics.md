@@ -15,5 +15,6 @@ resources:
   name: Web Analytics Weekly Report
   url: http://opendata.toronto.ca/it/com/web_analytics_weekly_csv.zip
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=38ce757b2a0e4410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Web Analytics
 ---

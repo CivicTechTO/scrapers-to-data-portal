@@ -15,5 +15,6 @@ resources:
   name: Bike Share - JSON
   url: http://www.bikesharetoronto.com/stations/json
 schema: default
+source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ad3cb6b6ae92b310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Bicycle Stations (Bike Share Toronto)
 ---
