@@ -1,0 +1,21 @@
+---
+category: ''
+maintainer: Open Data Team
+maintainer_email: opendata@toronto.ca
+notes: ''
+organization: 'Financial Planning '
+resources:
+- name: 2010 to 2019 City Program by Ward
+  url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/2010_to_2019_City_Program_by_Ward.xls
+- name: 2011 to 2020 Capital Budget & Plan by Ward
+  url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/2011_to_2020_Capital_Budget_&_Plan_by_Ward.xls
+- name: 2012 to 2021 City Program by Ward
+  url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/budget_city_program_ward_2012.xlsx
+- name: 2013 to 2022 City Program by Ward
+  url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/budget_city_program_ward_2013.xlsx
+- name: 2014 to 2023 Capital Budget & Plan by Ward
+  url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
+    Sets/Assets/Files/2014 Council Approved Projects By Ward.xlsx
+schema: default
+title: Budget - Capital Budget & Plan By Ward (10 yr Approved)
+---

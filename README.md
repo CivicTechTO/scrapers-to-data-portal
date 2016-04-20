@@ -13,5 +13,5 @@ to cache and version the datasets in the future.
 mkvirtualenv toronto-portal --python=`which python3`
 workon toronto-portal
 pip install -r requirements.txt
-scrapy runspider portal_spider.py -o data/toronto-datasets.json
+scrapy crawl portal
 ```

@@ -26,7 +26,8 @@ class PortalSpider(scrapy.Spider):
         for li in resource_section.xpath('.//li'):
             resource = {
                     'name': li.xpath('./a/text()').extract()[0],
-                    'url': li.css('a::attr(href)')[0].extract(),
+                    'url': response.urljoin(li.css('a::attr(href)')[0].extract()),
                     }
             yield resource
+
 
