@@ -5,11 +5,14 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Surveys and Mapping
 resources:
-- name: Former Municipality Boundaries (MTM3)
+- format: zip
+  name: Former Municipality Boundaries (MTM3)
   url: http://opendata.toronto.ca/gcc/formerMunicipalityBoundaries_mtm3.zip
-- name: Former Municipality Boundaries (WGS84)
+- format: zip
+  name: Former Municipality Boundaries (WGS84)
   url: http://opendata.toronto.ca/gcc/formerMunicipalityBoundaries_wgs84.zip
-- name: View Data
+- format: jsp?app=OpenData
+  name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default
 title: Former Municipality Boundaries

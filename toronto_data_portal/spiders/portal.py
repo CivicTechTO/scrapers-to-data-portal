@@ -1,4 +1,8 @@
 import scrapy
+import re
+
+
+FILETYPE_RE = re.compile(r'.+\.(?P<filetype>.+?)$')
 
 class PortalSpider(scrapy.Spider):
     name = 'portal'
@@ -24,9 +28,12 @@ class PortalSpider(scrapy.Spider):
     def parse_resources(self, response):
         resource_section = response.xpath('//section[contains(@class, "panel-default")]')[0]
         for li in resource_section.xpath('.//li'):
+            url = response.urljoin(li.css('a::attr(href)')[0].extract())
+            filetype = re.match(FILETYPE_RE, url).group('filetype')
             resource = {
                     'name': li.xpath('./a/text()').extract()[0],
-                    'url': response.urljoin(li.css('a::attr(href)')[0].extract()),
+                    'url': url,
+                    'format': filetype,
                     }
             yield resource
 

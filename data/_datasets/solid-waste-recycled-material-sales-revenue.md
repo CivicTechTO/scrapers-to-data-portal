@@ -5,9 +5,11 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Solid Waste Management Services '
 resources:
-- name: SWM Recycled Material Sales Revenue Readme
+- format: xls
+  name: SWM Recycled Material Sales Revenue Readme
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_SWMRecycledMaterialSalesRevenueReadme.xls
-- name: SWM Recycled Material Sales Revenue Data
+- format: xls
+  name: SWM Recycled Material Sales Revenue Data
   url: http://opendata.toronto.ca/city.manager/performance.management/PM_Solid_Waste.xls
 schema: default
 title: Solid Waste - Recycled Material Sales Revenue

@@ -5,11 +5,14 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Social Development, Finance & Administration
 resources:
-- name: Neighbourhood Improvement Areas (MTM3)
+- format: zip
+  name: Neighbourhood Improvement Areas (MTM3)
   url: http://opendata.toronto.ca/gcc/neighbourhood_improvement_areas_mtm3.zip
-- name: Neighbourhood Improvement Areas (WGS84)
+- format: zip
+  name: Neighbourhood Improvement Areas (WGS84)
   url: http://opendata.toronto.ca/gcc/neighbourhood_improvement_areas_wgs84.zip
-- name: View Data (zoom in to view)
+- format: jsp?app=OpenData
+  name: View Data (zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default
 title: Neighbourhood Improvement Areas

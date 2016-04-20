@@ -6,9 +6,11 @@ notes: ''
 organization: '    Economic Development & Culture Division, Event Marketing & Visitor
   Services Unit'
 resources:
-- name: Festivals and Events Readme
+- format: xls
+  name: Festivals and Events Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/Festivals_and_Events_Calendar_Readme.xls
-- name: Festivals and Events XML Feed
+- format: nsf/tpaview?readviewentries
+  name: Festivals and Events XML Feed
   url: http://wx.toronto.ca/festevents.nsf/tpaview?readviewentries
 schema: default
 title: Festivals & Events

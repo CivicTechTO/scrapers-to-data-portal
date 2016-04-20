@@ -5,13 +5,17 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Solid Waste Management Services '
 resources:
-- name: SWMS Curbside Collection Daytime Readme
+- format: xls
+  name: SWMS Curbside Collection Daytime Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/swmswastecollectscheduleReadme.xls
-- name: SWMS Daytime Curbside (MTM 3 Degree Zone 10, NAD27)
+- format: zip
+  name: SWMS Daytime Curbside (MTM 3 Degree Zone 10, NAD27)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/swms_wastecollect_schedule_mtm3.zip
-- name: SWMS Daytime Curbside (WGS84 - Latitude / Longitude)
+- format: zip
+  name: SWMS Daytime Curbside (WGS84 - Latitude / Longitude)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/swms_wastecollect_schedule_wgs84.zip
-- name: View Data
+- format: jsp?app=OpenData
+  name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default
 title: Solid Waste Daytime Curbside Collection Areas

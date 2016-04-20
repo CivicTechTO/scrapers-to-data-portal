@@ -5,23 +5,32 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Transportation Services - Traffic Management Centre '
 resources:
-- name: Traffic Signal Tabular Readme
+- format: doc
+  name: Traffic Signal Tabular Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/traffic_signals_tabular_readme.doc
-- name: All traffic signals - XML
+- format: '0'
+  name: All traffic signals - XML
   url: http://app.toronto.ca/opendata/cart/traffic_signals.xml?v=1.0
-- name: All traffic signals - CSV
+- format: '0'
+  name: All traffic signals - CSV
   url: http://app.toronto.ca/opendata/cart/traffic_signals.csv?v=1.0
-- name: Traffic signals with APS - XML
+- format: '0'
+  name: Traffic signals with APS - XML
   url: http://app.toronto.ca/opendata/cart/traffic_signals_with_aps.xml?v=1.0
-- name: Traffic signals with APS - CSV
+- format: '0'
+  name: Traffic signals with APS - CSV
   url: http://app.toronto.ca/opendata/cart/traffic_signals_with_aps.csv?v=1.0
-- name: Flashing beacons - XML
+- format: '0'
+  name: Flashing beacons - XML
   url: http://app.toronto.ca/opendata/cart/flashing_beacons.xml?v=1.0
-- name: Flashing beacons - CSV
+- format: '0'
+  name: Flashing beacons - CSV
   url: http://app.toronto.ca/opendata/cart/flashing_beacons.csv?v=1.0
-- name: Pedestrian crossovers - XML
+- format: '0'
+  name: Pedestrian crossovers - XML
   url: http://app.toronto.ca/opendata/cart/pedestrian_crossovers.xml?v=1.0
-- name: Pedestrian crossovers - CSV
+- format: '0'
+  name: Pedestrian crossovers - CSV
   url: http://app.toronto.ca/opendata/cart/pedestrian_crossovers.csv?v=1.0
 schema: default
 title: Traffic Signals Tabular

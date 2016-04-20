@@ -5,10 +5,12 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: City Clerk's Office
 resources:
-- name: Death Registry Statistics Readme
+- format: xls
+  name: Death Registry Statistics Readme
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/death_registry_stats_readme.xls
-- name: Death Registry Statistics Data
+- format: csv
+  name: Death Registry Statistics Data
   url: http://opendata.toronto.ca/clerk/registry.service/death.csv
 schema: default
 title: Death Registry Statistics

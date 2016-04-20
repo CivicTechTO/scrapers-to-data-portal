@@ -5,11 +5,14 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Engineering & Construction Services
 resources:
-- name: Transportation Bridge Data (Excel)
+- format: xls
+  name: Transportation Bridge Data (Excel)
   url: http://opendata.toronto.ca/gcc/bridges_and_culverts.xls
-- name: Transportation Bridge Data (WGS84)
+- format: zip
+  name: Transportation Bridge Data (WGS84)
   url: http://opendata.toronto.ca/gcc/bridges_and_culverts_wgs84.zip
-- name: Transportation Bridge Data (MTM3)
+- format: zip
+  name: Transportation Bridge Data (MTM3)
   url: http://opendata.toronto.ca/gcc/bridges_and_culverts_mtm3.zip
 schema: default
 title: Transportation Division Bridge Data

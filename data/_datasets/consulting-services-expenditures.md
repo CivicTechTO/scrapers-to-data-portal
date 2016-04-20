@@ -5,7 +5,8 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'Accounting Services Division '
 resources:
-- name: Consulting Services Expenditures 2010-2014
+- format: xls
+  name: Consulting Services Expenditures 2010-2014
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/2010-2014 Consulting Database - Open Data.xls
 schema: default

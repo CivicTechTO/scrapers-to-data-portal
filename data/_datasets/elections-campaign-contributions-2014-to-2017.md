@@ -5,10 +5,12 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: Election Services
 resources:
-- name: Campaign Contributions 2014 Readme
+- format: xls
+  name: Campaign Contributions 2014 Readme
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/CampaignContributions2014Readme.xls
-- name: Campaign Contributions 2014 Data
+- format: zip
+  name: Campaign Contributions 2014 Data
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/2014 Contributions.zip
 schema: default
