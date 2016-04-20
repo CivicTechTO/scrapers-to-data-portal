@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Parks, Forestry and Recreation
+organization: Parks, Forestry & Recreation
 resources:
 - format: XLS
   name: PFR Program Activity Summary Data Readme

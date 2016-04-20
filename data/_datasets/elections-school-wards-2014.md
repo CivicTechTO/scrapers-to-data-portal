@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: City Clerks Office, Election & Registry Services
+organization: City Clerk's Office
 resources:
 - format: ZIP
   name: Toronto District School Board Wards(WGS84)

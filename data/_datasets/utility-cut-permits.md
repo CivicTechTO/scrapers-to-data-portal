@@ -3,7 +3,7 @@ category: ''
 maintainer: Right-of-Way Management
 maintainer_email: trarow@toronto.ca
 notes: ''
-organization: Right-of-Way Management
+organization: Transportation Services
 resources:
 - format: ZIP
   name: Utility cut permits

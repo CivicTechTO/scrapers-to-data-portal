@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Shelter Support & Housing Administration - Hostel Services
+organization: Shelter, Support & Housing Administration
 resources:
 - format: XLS
   name: Shelter Locations Readme

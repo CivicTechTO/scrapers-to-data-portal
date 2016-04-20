@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Transportation Services - Traffic Management Centre
+organization: Transportation Services
 resources:
 - format: DOC
   name: Traffic Signal Tabular Readme

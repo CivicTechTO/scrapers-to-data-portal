@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: City Clerk's Office, Secretariat
+organization: City Clerk's Office
 resources:
 - format: TXT
   name: City Council and Committees Meeting Schedule Reports Readme

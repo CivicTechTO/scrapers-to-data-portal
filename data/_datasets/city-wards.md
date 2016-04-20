@@ -3,7 +3,7 @@ category: ''
 maintainer: Geospatial Competency Centre
 maintainer_email: gcc@toronto.ca
 notes: ''
-organization: City Clerk
+organization: City Clerk's Office
 resources:
 - format: ZIP
   name: Oct 2009 (MTM 3 Degree Zone 10, NAD27)

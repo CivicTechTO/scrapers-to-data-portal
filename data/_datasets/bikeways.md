@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Transportation Services, Cycling Infrastructure & Programs
+organization: Transportation Services
 resources:
 - format: ZIP
   name: Bikeways (MTM 3 Degree Zone 10, NAD27)

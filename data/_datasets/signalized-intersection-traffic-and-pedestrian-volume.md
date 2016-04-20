@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Traffic Safety Unit, Traffic Management Centre, Transportation
+organization: Transportation Services
 resources:
 - format: XLS
   name: Signalized Intersection Traffic and Pedestrian Volumes Readme

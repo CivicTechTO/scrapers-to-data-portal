@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Municipal Licensing and Standards
+organization: Municipal Licensing & Standards
 resources:
 - format: XLS
   name: Business Licence Readme

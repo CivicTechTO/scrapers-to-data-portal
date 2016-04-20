@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Economic Development, Culture and Tourism
+organization: Economic Development & Culture
 resources:
 - format: ZIP
   name: Business Improvement Areas Data (MTM3)

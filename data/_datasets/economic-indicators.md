@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Economic Development
+organization: Economic Development & Culture
 resources:
 - format: XLSX
   name: Economic Indicators Database

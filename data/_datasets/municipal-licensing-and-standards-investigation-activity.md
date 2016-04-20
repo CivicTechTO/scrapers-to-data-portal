@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Municipal Licensing & Standards, Investigative Services
+organization: Municipal Licensing & Standards
 resources:
 - format: XLSX
   name: Readme

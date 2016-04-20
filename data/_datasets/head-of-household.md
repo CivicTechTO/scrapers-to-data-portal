@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Toronto Employment & Social Services
+organization: Employment & Social Services
 resources:
 - format: ZIP
   name: Head of Household Data

@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: City Clerk's Office - Corporate Information Management Services
+organization: City Clerk's Office
 resources:
 - format: XLS
   name: RCS Authoritative Source Readme

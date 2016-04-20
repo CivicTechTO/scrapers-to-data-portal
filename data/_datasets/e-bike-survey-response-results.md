@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Transportation Services, Cycling Infrastructure & Programs
+organization: Transportation Services
 resources:
 - format: XLS
   name: E-Bike Survey Response Results

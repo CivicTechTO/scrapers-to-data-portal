@@ -3,7 +3,7 @@ category: ''
 maintainer: City Clerk's Office, Secretariat
 maintainer_email: clerk@toronto.ca
 notes: ''
-organization: City Clerk's Office, Secretariat
+organization: City Clerk's Office
 resources:
 - format: ''
   name: Councillors' Meeting Attendance

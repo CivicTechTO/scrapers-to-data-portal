@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: 311 Contact Centre
+organization: 311 Toronto
 resources:
 - format: XLS
   name: Readme

@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Transportation Services, Right of Way Management
+organization: Transportation Services
 resources:
 - format: XML
   name: Residential Front Yard Parking - XML

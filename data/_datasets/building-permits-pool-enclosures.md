@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Toronto Building Plan Review Section
+organization: Toronto Building
 resources:
 - format: XLS
   name: Toronto Building - Pool Permits Readme

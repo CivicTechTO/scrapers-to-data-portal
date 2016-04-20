@@ -3,7 +3,7 @@ category: ''
 maintainer: Pcard Expenditures
 maintainer_email: jbuck@toronto.ca
 notes: ''
-organization: Accounting Services Division
+organization: Accounting Services
 resources:
 - format: XLS
   name: Readme File

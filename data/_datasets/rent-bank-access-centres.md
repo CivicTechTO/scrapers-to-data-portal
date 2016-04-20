@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Shelter, Support and Housing Administration
+organization: Shelter, Support & Housing Administration
 resources:
 - format: ZIP
   name: Rent Bank Centres (WGS84)

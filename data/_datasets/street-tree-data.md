@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Parks, Forestry & Recreation - Urban Forestry
+organization: Parks, Forestry & Recreation
 resources:
 - format: XLS
   name: Street Tree Data Readme

@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: City Clerks Office, Election & Registry Services
+organization: City Clerk's Office
 resources:
 - format: XLSX
   name: 2016 TDSB By-Election Voter Statistics

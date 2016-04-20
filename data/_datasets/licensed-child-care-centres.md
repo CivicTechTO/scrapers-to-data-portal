@@ -3,7 +3,7 @@ category: ''
 maintainer: "Toronto Children\u2019s Services"
 maintainer_email: childcare@toronto.ca
 notes: ''
-organization: "Toronto Children\u2019s Services"
+organization: Children's Services
 resources:
 - format: PDF
   name: Metadata documentation (PDF)

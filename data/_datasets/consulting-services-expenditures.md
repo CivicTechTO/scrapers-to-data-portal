@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Accounting Services Division
+organization: Accounting Services
 resources:
 - format: XLS
   name: Consulting Services Expenditures 2010-2014

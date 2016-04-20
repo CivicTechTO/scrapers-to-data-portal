@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: Public Health - Healthy Environments Program
+organization: Toronto Public Health
 resources:
 - format: ZIP
   name: Dinesafe Data

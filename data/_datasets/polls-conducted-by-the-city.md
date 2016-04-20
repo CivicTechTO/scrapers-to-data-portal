@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: City Clerks
+organization: City Clerk's Office
 resources:
 - format: ZIP
   name: Polls Data (XML)
