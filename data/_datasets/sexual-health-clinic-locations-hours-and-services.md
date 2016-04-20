@@ -3,7 +3,7 @@ category: ''
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: ''
-organization: July 22, 2014
+organization: null
 resources:
 - format: XLSX
   name: Sexual Health Clinic Locations, Hours and Services

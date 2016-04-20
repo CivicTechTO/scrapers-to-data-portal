@@ -47,13 +47,21 @@ class PortalSpider(scrapy.Spider):
             yield scrapy.Request(full_url, callback=self.parse_dataset)
 
     def parse_dataset(self, response):
-        owner = response.css('section.metadata dd:nth-of-type(1)::text').extract()[0].strip()
-        owner = PSEUDONYMS.get(owner, owner)
+        owner = response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Owner")]/following::dd[1]/text()').extract_first(),
+        if owner:
+            owner, = owner
+            owner = owner.strip()
+            owner = PSEUDONYMS.get(owner, owner)
+
+        maintainer_email = response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/a/text()').extract_first()
+        if maintainer_email:
+            maintainer_email = maintainer_email.strip()
+
         dataset = {
                 'title': response.css('h1[property=name]::text').extract()[0].strip(),
                 'owner': owner,
                 'maintainer': response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/text()').extract()[0].strip(),
-                'maintainer_email': response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/a/text()').extract()[0].strip(),
+                'maintainer_email': maintainer_email,
                 'resources': list(self.parse_resources(response)),
                 'url': response.url,
                 }
