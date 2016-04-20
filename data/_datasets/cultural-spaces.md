@@ -17,7 +17,7 @@ resources:
 - format: zip
   name: Making Space For Culture Shapefile (WGS84)
   url: http://opendata.toronto.ca/gcc/make_space_for_culture_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Map (zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

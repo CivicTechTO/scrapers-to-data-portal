@@ -23,7 +23,7 @@ resources:
 - format: zip
   name: Voting Subdivisions 2014(MTM 3)
   url: http://opendata.toronto.ca/gcc/voting_subdivision_2014_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

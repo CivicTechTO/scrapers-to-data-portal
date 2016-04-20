@@ -14,7 +14,7 @@ resources:
 - format: zip
   name: Shelter Locations (MTM3)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/shelters_mtm3_feb_2012.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

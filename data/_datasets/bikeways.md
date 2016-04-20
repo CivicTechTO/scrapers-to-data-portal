@@ -17,7 +17,7 @@ resources:
 - format: zip
   name: Historical Bike Trails (MTM3)
   url: http://opendata.toronto.ca/gcc/historical_bike_trails_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

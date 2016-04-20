@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Early Years Centres (MTM3)
   url: http://opendata.toronto.ca/gcc/early_years_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

@@ -11,7 +11,7 @@ resources:
 - format: xml
   name: Bixi Locations - live feed
   url: http://www.bikesharetoronto.com/data/stations/bikeStations.xml
-- format: com/stations/json
+- format: ''
   name: Bike Share - JSON
   url: http://www.bikesharetoronto.com/stations/json
 schema: default

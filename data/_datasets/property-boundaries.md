@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Property Boundaries (WGS84)
   url: http://opendata.toronto.ca/gcc/property_bnds_gcc_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

@@ -5,7 +5,7 @@ maintainer_email: clerk@toronto.ca
 notes: ''
 organization: 'City Clerk''s Office, Secretariat '
 resources:
-- format: do?function=prepareMemberAttendanceReport
+- format: ''
   name: Councillors' Meeting Attendance
   url: http://app.toronto.ca/tmmis/getAdminReport.do?function=prepareMemberAttendanceReport
 - format: txt

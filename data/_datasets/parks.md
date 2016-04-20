@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Parks and Green Space (MTM3)
   url: http://opendata.toronto.ca/gcc/city_green_space_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

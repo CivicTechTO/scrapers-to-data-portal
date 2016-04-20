@@ -17,7 +17,7 @@ resources:
 - format: zip
   name: River locations (WGS84)
   url: http://opendata.toronto.ca/gcc/heritage_river_locations_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

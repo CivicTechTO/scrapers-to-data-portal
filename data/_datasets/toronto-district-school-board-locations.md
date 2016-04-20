@@ -14,7 +14,7 @@ resources:
 - format: zip
   name: TDSB School Locations (MTM 3 Degree Zone 10)
   url: http://opendata.toronto.ca/gcc/school_tdsb_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

@@ -14,7 +14,7 @@ resources:
 - format: zip
   name: Fire Station Locations (MTM3)
   url: http://opendata.toronto.ca/gcc/fire_hall_locations_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

@@ -15,7 +15,7 @@ resources:
 - format: zip
   name: Municipal Address Points (WGS84 - Latitude / Longitude)
   url: http://opendata.toronto.ca/gcc/address_points_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data (Zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Zoning By-law 569-2013 (MTM3)
   url: http://opendata.toronto.ca/gcc/zoning_mtm3.zip
-- format: jsp?app=ZBL_CONSULT
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=ZBL_CONSULT
 schema: default

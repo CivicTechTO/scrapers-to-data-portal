@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: On street parking(MTM3)
   url: http://opendata.toronto.ca/gcc/parking_permit_areas_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data (zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

@@ -14,7 +14,7 @@ resources:
 - format: zip
   name: Hotel Association Member List (WGS84)
   url: http://opendata.toronto.ca/gcc/hotel_gtha_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data (Zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

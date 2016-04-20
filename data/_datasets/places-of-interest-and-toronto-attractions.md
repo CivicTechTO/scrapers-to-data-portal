@@ -14,7 +14,7 @@ resources:
 - format: zip
   name: Places of Interest (MTM3)
   url: http://opendata.toronto.ca/gcc/places_of_interest_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

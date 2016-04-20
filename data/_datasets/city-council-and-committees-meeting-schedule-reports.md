@@ -8,7 +8,7 @@ resources:
 - format: txt
   name: City Council and Committees Meeting Schedule Reports Readme
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/readme.txt
-- format: do?function=prepareMeetingScheduleReport
+- format: ''
   name: City Council and Committees Meeting Schedule Reports
   url: http://app.toronto.ca/tmmis/getAdminReport.do?function=prepareMeetingScheduleReport
 schema: default

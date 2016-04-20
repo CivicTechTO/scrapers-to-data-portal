@@ -21,7 +21,7 @@ resources:
   name: "Statistics Canada Open Licence Agreement \u2013 PDF"
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Statistics Canada Open Licence Agreement.pdf
-- format: ca/eng/public/beyond20-20
+- format: ''
   name: Beyond 20/20 Professional Browser to read IVT tables
   url: http://www.statcan.gc.ca/eng/public/beyond20-20
 - format: zip

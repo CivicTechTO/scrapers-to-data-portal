@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Toronto Centreline (WGS84 - Latitude / Longitude)
   url: http://opendata.toronto.ca/gcc/centreline_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data (Zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

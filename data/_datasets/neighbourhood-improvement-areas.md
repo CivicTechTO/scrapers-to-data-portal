@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Neighbourhood Improvement Areas (WGS84)
   url: http://opendata.toronto.ca/gcc/neighbourhood_improvement_areas_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data (zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

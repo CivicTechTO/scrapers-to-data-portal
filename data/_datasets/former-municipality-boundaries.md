@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Former Municipality Boundaries (WGS84)
   url: http://opendata.toronto.ca/gcc/formerMunicipalityBoundaries_wgs84.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

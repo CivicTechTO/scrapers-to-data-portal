@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: SWMS Districts (WGS84)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/swms_districts_wgs84_July2012.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

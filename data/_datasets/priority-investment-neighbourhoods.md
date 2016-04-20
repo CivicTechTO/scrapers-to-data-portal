@@ -8,7 +8,7 @@ resources:
 - format: zip
   name: Priority Investment Neighbourhoods
   url: http://www1.toronto.ca/City_Of_Toronto/Information_Technology/Open_Data/Data_Sets/Assets/Files/priority-invest-neighbourhoods.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

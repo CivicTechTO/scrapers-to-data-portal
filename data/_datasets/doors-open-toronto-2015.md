@@ -9,7 +9,7 @@ resources:
   name: Door Open 2015 Readme
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/DOTOpenData.docx
-- format: JSON?OpenPage
+- format: ''
   name: Doors Open 2015 Data (JSON)
   url: http://wx.toronto.ca/inter/culture/doorsopen.nsf/OpenDataDOTBuilding.JSON?OpenPage
 schema: default

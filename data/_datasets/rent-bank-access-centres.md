@@ -14,7 +14,7 @@ resources:
 - format: zip
   name: Rent Bank Centres (3MTM)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/rent_bank_centres_3MTM.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

@@ -5,7 +5,7 @@ maintainer_email: opendata@toronto.ca
 notes: ''
 organization: 'City Planning '
 resources:
-- format: html?id=161511b3fd7943e39465f3d857389aab
+- format: ''
   name: Interactive Map Tile Locator (DWG, SKP)
   url: http://cot-planning.maps.arcgis.com/apps/webappviewer/index.html?id=161511b3fd7943e39465f3d857389aab
 - format: pdf

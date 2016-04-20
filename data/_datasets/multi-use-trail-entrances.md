@@ -11,7 +11,7 @@ resources:
 - format: zip
   name: Bicycle Trail Entrance(MTM3)
   url: http://opendata.toronto.ca/gcc/bicycle_trail_entrance_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

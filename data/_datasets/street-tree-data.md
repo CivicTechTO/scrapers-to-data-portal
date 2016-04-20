@@ -14,7 +14,7 @@ resources:
 - format: zip
   name: Street Tree Data (MTM3)
   url: http://www1.toronto.ca/City_Of_Toronto/Information_&_Technology/Open_Data/Data_Sets/Assets/Files/street_tree_data_mtm3.zip
-- format: jsp?app=OpenData
+- format: ''
   name: View Data (zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
 schema: default

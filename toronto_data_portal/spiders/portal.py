@@ -2,7 +2,7 @@ import scrapy
 import re
 
 
-FILETYPE_RE = re.compile(r'.+\.(?P<filetype>.+?)$')
+FILETYPE_RE = re.compile(r'.+?(:?\.(?P<filetype>[0-9a-zA-Z]+?))?$')
 
 class PortalSpider(scrapy.Spider):
     name = 'portal'
@@ -29,7 +29,8 @@ class PortalSpider(scrapy.Spider):
         resource_section = response.xpath('//section[contains(@class, "panel-default")]')[0]
         for li in resource_section.xpath('.//li'):
             url = response.urljoin(li.css('a::attr(href)')[0].extract())
-            filetype = re.match(FILETYPE_RE, url).group('filetype')
+            unknown_filetype = ''
+            filetype = re.match(FILETYPE_RE, url).groupdict(unknown_filetype).get('filetype')
             resource = {
                     'name': li.xpath('./a/text()').extract()[0],
                     'url': url,
