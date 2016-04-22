@@ -5,10 +5,28 @@
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy.item import Item, Field
 
 
-class TorontoDataPortalItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class JkanOrganization(Item):
+    title = Field()
+    logo = Field()
+    website = Field()
+    description = Field()
+    official = Field()
+
+class JkanDataset(Item):
+    schema = Field()
+    title = Field()
+    source = Field()
+    organization = Field()
+    category = Field(serializer=list)
+    notes = Field()
+    resources = Field()
+    maintainer = Field()
+    maintainer_email = Field()
+
+class JkanResource(Item):
+    name = Field()
+    url = Field()
+    format = Field()

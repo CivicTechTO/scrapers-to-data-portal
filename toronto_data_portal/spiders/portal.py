@@ -1,6 +1,8 @@
 import scrapy
 import re
 
+from toronto_data_portal.items import JkanOrganization, JkanDataset, JkanResource
+
 
 FILETYPE_RE = re.compile(r'.+?(:?\.(?P<filetype>[0-9a-zA-Z]+?))?$')
 
@@ -41,44 +43,68 @@ class PortalSpider(scrapy.Spider):
     name = 'portal'
     start_urls = ['http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD']
 
+    def __init__(self):
+        self.datasets_d = {}
+
     def parse(self, response):
+        for a in response.css('.datacatalogue article.row h4 a'):
+            href = a.xpath('./@href').extract_first()
+            dataset_url = response.urljoin(href)
+            request = scrapy.Request(dataset_url, callback=self.parse_dataset)
+            request.meta['categories'] = []
+
+            dataset_name = a.xpath('./text()').extract_first().strip()
+            self.datasets_d[dataset_name] = request
+
+        for dataset_name, request in self.datasets_d.items():
+            yield request
+
+        #for a in response.xpath('//nav[contains(@class, "media")]//ul/ul/li/a'):
+        #    category_url = response.urljoin(a.xpath('./@href').extract_first())
+        #    category = a.xpath('./text()').extract_first()
+        #    request = scrapy.Request(category_url, callback=self.parse_category)
+        #    request.meta['category'] = category
+
+        #    yield request
+
+    def parse_category(self, response):
         for href in response.css('.datacatalogue article.row h4 a::attr(href)'):
-            full_url = response.urljoin(href.extract())
-            yield scrapy.Request(full_url, callback=self.parse_dataset)
+            dataset_url = response.urljoin(href.extract())
+            request = scrapy.Request(dataset_url, callback=self.parse_dataset)
+            request.meta['category'] = response.meta['category']
+
+            yield request
 
     def parse_dataset(self, response):
+        item = JkanDataset()
+
         owner = response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Owner")]/following::dd[1]/text()').extract_first(),
         if owner:
             owner, = owner
             owner = owner.strip()
             owner = PSEUDONYMS.get(owner, owner)
+            item['organization'] = owner
 
         maintainer_email = response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/a/text()').extract_first()
         if maintainer_email:
-            maintainer_email = maintainer_email.strip()
+            item['maintainer_email'] = maintainer_email.strip()
 
-        dataset = {
-                'title': response.css('h1[property=name]::text').extract()[0].strip(),
-                'owner': owner,
-                'maintainer': response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/text()').extract()[0].strip(),
-                'maintainer_email': maintainer_email,
-                'resources': list(self.parse_resources(response)),
-                'url': response.url,
-                }
+        item['title'] = response.css('h1[property=name]::text').extract()[0].strip()
+        item['maintainer'] = response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/text()').extract()[0].strip()
+        item['resources'] = [dict(resource) for resource in self.parse_resources(response)]
+        item['source'] = response.url
+        item['category'] = []
 
-        yield dataset
+        yield item
 
     def parse_resources(self, response):
+        item = JkanResource()
+        unknown_filetype = ''
+
         resource_section = response.xpath('//section[contains(@class, "panel-default")]')[0]
         for li in resource_section.xpath('.//li'):
-            url = response.urljoin(li.css('a::attr(href)')[0].extract())
-            unknown_filetype = ''
-            filetype = re.match(FILETYPE_RE, url).groupdict(unknown_filetype).get('filetype').upper()
-            resource = {
-                    'name': li.xpath('./a/text()').extract()[0].strip(),
-                    'url': url,
-                    'format': filetype,
-                    }
-            yield resource
+            item['url'] = response.urljoin(li.css('a::attr(href)')[0].extract())
+            item['format'] = re.match(FILETYPE_RE, item['url']).groupdict(unknown_filetype).get('filetype').upper()
+            item['name'] = li.xpath('./a/text()').extract()[0].strip()
 
-
+            yield item
