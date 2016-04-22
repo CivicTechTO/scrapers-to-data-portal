@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: Social Policy Analysis & Research
 maintainer_email: spar@toronto.ca
 notes: ''

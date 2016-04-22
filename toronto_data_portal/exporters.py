@@ -17,7 +17,6 @@ class JkanDatasetItemExporter(BaseItemExporter):
             'notes': '',
             'source': item['url'],
             'resources': item['resources'],
-            'category': '',
             'maintainer': item['maintainer'],
             'maintainer_email': item['maintainer_email'],
         }

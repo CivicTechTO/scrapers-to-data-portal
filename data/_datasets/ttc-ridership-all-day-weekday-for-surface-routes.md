@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: TTC Open Data
 maintainer_email: opendata@ttc.ca
 notes: ''

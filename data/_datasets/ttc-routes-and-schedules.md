@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: Toronto Transit Commission
 maintainer_email: OpenData@ttc.ca
 notes: ''

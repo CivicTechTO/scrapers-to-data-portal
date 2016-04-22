@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: 311 Contact Centre
 maintainer_email: opendata@toronto.ca
 notes: ''

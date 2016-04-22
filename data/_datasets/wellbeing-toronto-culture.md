@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: Social Development, Finance & Administration
 maintainer_email: null
 notes: ''

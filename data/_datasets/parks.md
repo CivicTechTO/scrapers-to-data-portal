@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: Geospatial Competency Centre
 maintainer_email: gcc@toronto.ca
 notes: ''

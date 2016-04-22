@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: "Toronto Children\u2019s Services"
 maintainer_email: childcare@toronto.ca
 notes: ''

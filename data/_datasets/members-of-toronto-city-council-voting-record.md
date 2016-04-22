@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: City Clerk's Office, Secretariat
 maintainer_email: clerk@toronto.ca
 notes: ''

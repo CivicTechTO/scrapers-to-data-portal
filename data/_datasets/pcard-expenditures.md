@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: Pcard Expenditures
 maintainer_email: jbuck@toronto.ca
 notes: ''

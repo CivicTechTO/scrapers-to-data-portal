@@ -1,5 +1,4 @@
 ---
-category: ''
 maintainer: Right-of-Way Management
 maintainer_email: trarow@toronto.ca
 notes: ''
