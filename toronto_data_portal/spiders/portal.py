@@ -45,38 +45,65 @@ class PortalSpider(scrapy.Spider):
 
     def __init__(self):
         self.datasets_d = {}
+        self.seen_orgs = []
 
     def parse(self, response):
+        # Create lookup dict of all datasets
+        items_d = {}
         for a in response.css('.datacatalogue article.row h4 a'):
             href = a.xpath('./@href').extract_first()
             dataset_url = response.urljoin(href)
             request = scrapy.Request(dataset_url, callback=self.parse_dataset)
-            request.meta['categories'] = []
-
             dataset_name = a.xpath('./text()').extract_first().strip()
-            self.datasets_d[dataset_name] = request
 
-        for dataset_name, request in self.datasets_d.items():
+            item = JkanDataset()
+            item['title'] = dataset_name
+            item['category'] = []
+            item['source'] = dataset_url
+            items_d[dataset_name] = item
+
+        # Create list of all category links
+        links = []
+        for a in response.xpath('//nav[contains(@class, "media")]//ul/ul/li/a'):
+            category = a.xpath('./text()').extract_first()
+            category_url = response.urljoin(a.xpath('./@href').extract_first())
+            links.append({ 'category': category, 'url': category_url })
+
+        link_data = links.pop()
+        request = scrapy.Request(link_data['url'], callback=self.parse_next_link)
+        request.meta['category'] = link_data['category']
+        request.meta['links'] = links
+        request.meta['items_d'] = items_d
+
+        yield request
+
+    def parse_next_link(self, response):
+        items_d = response.meta['items_d']
+        links = response.meta['links']
+
+        category = response.meta['category']
+
+        for a in response.css('.datacatalogue article.row h4 a'):
+            dataset_name = a.xpath('./text()').extract_first().strip()
+            items_d[dataset_name]['category'].append(category)
+
+        if len(links) > 0:
+            link_data = links.pop()
+            request = scrapy.Request(link_data['url'], callback=self.parse_next_link)
+            request.meta['category'] = link_data['category']
+            request.meta['links'] = links
+            request.meta['items_d'] = items_d
+
             yield request
-
-        #for a in response.xpath('//nav[contains(@class, "media")]//ul/ul/li/a'):
-        #    category_url = response.urljoin(a.xpath('./@href').extract_first())
-        #    category = a.xpath('./text()').extract_first()
-        #    request = scrapy.Request(category_url, callback=self.parse_category)
-        #    request.meta['category'] = category
-
-        #    yield request
-
-    def parse_category(self, response):
-        for href in response.css('.datacatalogue article.row h4 a::attr(href)'):
-            dataset_url = response.urljoin(href.extract())
-            request = scrapy.Request(dataset_url, callback=self.parse_dataset)
-            request.meta['category'] = response.meta['category']
-
-            yield request
+        else:
+            # No more links so yield datasets
+            for item in response.meta['items_d'].values():
+                request = scrapy.Request(item['source'], callback=self.parse_dataset)
+                request.meta['item'] = item
+                yield request
 
     def parse_dataset(self, response):
-        item = JkanDataset()
+        item = response.meta['item']
 
         owner = response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Owner")]/following::dd[1]/text()').extract_first(),
         if owner:
@@ -93,9 +120,18 @@ class PortalSpider(scrapy.Spider):
         item['maintainer'] = response.xpath('//section[@class="metadata"]//dt[contains(./text(), "Contact")]/following-sibling::dd/text()').extract()[0].strip()
         item['resources'] = [dict(resource) for resource in self.parse_resources(response)]
         item['source'] = response.url
-        item['category'] = []
+
+        if item['organization'] not in self.seen_orgs:
+            self.seen_orgs.append(item['organization'])
+
+            org = JkanOrganization()
+            org['logo'] = 'http://ajournalofmusicalthings.com/wp-content/uploads/Toronto-logo.png'
+            org['title'] = item['organization']
+            org['official'] = True
+            yield org
 
         yield item
+
 
     def parse_resources(self, response):
         item = JkanResource()
