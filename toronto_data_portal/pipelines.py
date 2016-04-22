@@ -9,6 +9,11 @@ from toronto_data_portal.exporters import JekyllFrontmatterItemExporter
 from toronto_data_portal.items import JkanOrganization, JkanDataset
 from slugify import slugify
 
+LOOKUP = {
+        JkanDataset: '_datasets',
+        JkanOrganization: '_organizations',
+        }
+
 
 class JkanPipeline(object):
 
@@ -16,28 +21,15 @@ class JkanPipeline(object):
         self.files = {}
 
     def process_item(self, item, spider):
-        if type(item) is JkanDataset:
+        if type(item) in [JkanDataset, JkanOrganization]:
             if item['title']:
-                dataset_slug = slugify(item['title'])
-                self.files[dataset_slug] = open('data/_datasets/%s.md' % dataset_slug, 'w+b')
-                self.exporter = JekyllFrontmatterItemExporter(self.files[dataset_slug])
+                slug = slugify(item['title'])
+                self.files[slug] = open('data/%s/%s.md' % (LOOKUP[type(item)], slug), 'w+b')
+                self.exporter = JekyllFrontmatterItemExporter(self.files[slug])
                 self.exporter.start_exporting()
                 self.exporter.export_item(item)
                 self.exporter.finish_exporting()
-                file = self.files.pop(dataset_slug)
-                file.close()
-            else:
-                raise DropItem("Missing title in %s" % item)
-
-        if type(item) is JkanOrganization:
-            if item['title']:
-                org_slug = slugify(item['title'])
-                self.files[org_slug] = open('data/_organizations/%s.md' % org_slug, 'w+b')
-                self.exporter = JekyllFrontmatterItemExporter(self.files[org_slug])
-                self.exporter.start_exporting()
-                self.exporter.export_item(item)
-                self.exporter.finish_exporting()
-                file = self.files.pop(org_slug)
+                file = self.files.pop(slug)
                 file.close()
             else:
                 raise DropItem("Missing title in %s" % item)
