@@ -50,16 +50,18 @@ class PortalSpider(scrapy.Spider):
     def parse(self, response):
         # Create lookup dict of all datasets
         items_d = {}
-        for a in response.css('.datacatalogue article.row h4 a'):
-            href = a.xpath('./@href').extract_first()
+        for article in response.xpath('//div[@class="datacatalogue"]//article'):
+            href = article.xpath('./*/h4/a/@href').extract_first()
             dataset_url = response.urljoin(href)
             request = scrapy.Request(dataset_url, callback=self.parse_dataset)
-            dataset_name = a.xpath('./text()').extract_first().strip()
+            dataset_name = article.xpath('./*/h4/a/text()').extract_first().strip()
+            notes = article.xpath('./div[1]/h4/following-sibling::p/text()').extract_first()
 
             item = JkanDataset()
             item['title'] = dataset_name
             item['category'] = []
             item['source'] = dataset_url
+            item['notes'] = notes
             items_d[dataset_name] = item
 
         # Create list of all category links
