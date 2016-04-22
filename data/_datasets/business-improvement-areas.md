@@ -1,7 +1,10 @@
 ---
+category:
+- Locations and mapping
+- Business
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Boundaries for the active Business Improvement Areas within the City of Toronto.
 organization: Economic Development & Culture
 resources:
 - format: ZIP
@@ -13,7 +16,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=8c5d5f9cd70bb210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Business Improvement Areas
 ---

@@ -1,7 +1,13 @@
 ---
+category:
+- Permits and licenses
+- Locations and mapping
+- Community services
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: The reports list the number of licensed dogs and cats residing in Toronto identified
+  by primary breed and forward sortation area (FSA) which is the first 3 characters
+  in the postal code.
 organization: Municipal Licensing & Standards
 resources:
 - format: XLS
@@ -21,7 +27,6 @@ resources:
   name: By Forward Sortation Area (FSA) 2013
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/2013 licences sold by fsa.xls
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=0a7e1f46f71fb310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Licensed Dogs and Cats Reports
 ---

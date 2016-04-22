@@ -1,7 +1,11 @@
 ---
+category:
+- Finance
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Constituency services and office expense records by expenditure category for
+  Members of Council beginning in 2008.
 organization: City Clerk's Office
 resources:
 - format: XLS
@@ -20,7 +24,6 @@ resources:
   name: Councillors Office Expenses (2014-Q1Q2)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/TCER2_OpenData_2014_Q1-Q2_1.csv
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=e5608c6c6e68f310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Councillors' Constituency Services & Office Expense Reporting
 ---

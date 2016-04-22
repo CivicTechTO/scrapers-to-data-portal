@@ -1,7 +1,13 @@
 ---
+category:
+- Public safety
+- Locations and mapping
+- Community services
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Toronto Animal Services (TAS) operates four Animal Centres and is responsible
+  for sheltering animals that are lost or surrendered by owners or animals that are
+  available for adoption to new homes.
 organization: Municipal Licensing & Standards
 resources:
 - format: XLS
@@ -15,7 +21,6 @@ resources:
   name: TAS Shelter Activity Report (2006 to 2013)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/municipal_licensing_animal_shelter_activity.xls
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ebe6e36128535310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Municipal Licensing and Standards - Toronto Animal Shelter Activity
 ---

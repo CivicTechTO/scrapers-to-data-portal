@@ -1,7 +1,11 @@
 ---
+category:
+- Locations and mapping
+- Community services
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: The data set contains the location of the shelters within the City of Toronto,
+  maintained by Hostel Services.
 organization: Shelter, Support & Housing Administration
 resources:
 - format: XLS
@@ -16,7 +20,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=30bcb5989b985310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: 'Hostel Services: Homeless Shelter Locations'
 ---

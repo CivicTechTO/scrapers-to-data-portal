@@ -1,7 +1,11 @@
 ---
+category:
+- Locations and mapping
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This is a GIS polygon data set that identifies the districts that govern the
+  2014 four school electoral districts in the City of Toronto.
 organization: City Clerk's Office
 resources:
 - format: ZIP
@@ -30,7 +34,6 @@ resources:
   name: Conseil scolaire de district catholique Centre-Sud - French catholic school
     board(MTM3)
   url: http://opendata.toronto.ca/gcc/french_sep_school_district_mtm3.zip
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9a55df0bb20b9410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Elections - School Wards 2014
 ---

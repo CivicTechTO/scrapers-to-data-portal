@@ -1,7 +1,9 @@
 ---
+category: []
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: A list of organizations receiving property tax rebates or tax exemptions from
+  the City of Toronto.
 organization: Revenue Services
 resources:
 - format: XLS
@@ -12,7 +14,6 @@ resources:
   name: Tax Rebates / Tax Exemptions
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/tax_rebates_exemptions.xls
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=007b55b89b6fe310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Tax Rebates / Tax Exemptions
 ---

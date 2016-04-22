@@ -1,7 +1,12 @@
 ---
+category:
+- Parks and recreation
+- Locations and mapping
+- Community services
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Listing of locations where Leisure Swimming, Leisure Skating and Aquafit drop-In
+  programs are offered by Parks Forestry and Recreation (PF&R), Community Recreation.
 organization: Parks, Forestry & Recreation
 resources:
 - format: XLS
@@ -25,7 +30,6 @@ resources:
 - format: ZIP
   name: Aquafit Drop In Location (wgs84)
   url: http://opendata.toronto.ca/gcc/pfr_drop_in_aquafit_wgs84.zip
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=bbcd08675e984410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Recreational Drop in Programs
 ---

@@ -1,7 +1,13 @@
 ---
+category:
+- Locations and mapping
+- Culture and tourism
+- Community services
+- Business
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: The database consists of the name of the facility, address, ward information,
+  ownership of facilities that are available on a rental basis for cultural events.
 organization: Economic Development & Culture
 resources:
 - format: XLS
@@ -19,7 +25,6 @@ resources:
 - format: ''
   name: View Map (zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=4f6bdda2f1405410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Cultural Spaces
 ---

@@ -1,7 +1,11 @@
 ---
+category:
+- Transportation
+- Locations and mapping
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This data set provides a point representation for addresses within the City
+  of Toronto.
 organization: Geospatial Competency Centre
 resources:
 - format: TXT
@@ -17,7 +21,6 @@ resources:
 - format: ''
   name: View Data (Zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=91415f9cd70bb210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Address Points (Municipal) - Toronto One Address Repository
 ---

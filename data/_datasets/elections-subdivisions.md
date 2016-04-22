@@ -1,7 +1,11 @@
 ---
+category:
+- Locations and mapping
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Polygon shape files that depicts the Election Polling Subdivisions for the
+  2014, 2010 and 2006 Municipal Elections for the City of Toronto.
 organization: City Clerk's Office
 resources:
 - format: ZIP
@@ -25,7 +29,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=9f6ce77bf365e210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Elections Subdivisions
 ---

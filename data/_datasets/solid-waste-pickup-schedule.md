@@ -1,7 +1,11 @@
 ---
+category:
+- Garbage and recycling
+- Environment
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This dataset contains the curbside residential weekly pick-up schedules for
+  green bin, garbage, recycling, yard waste and Christmas trees
 organization: Solid Waste Management Services
 resources:
 - format: XLSX
@@ -31,7 +35,6 @@ resources:
 - format: XLS
   name: Readme file
   url: http://opendata.toronto.ca/solid.waste/pickup.schedule/readme.xls
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=2ee34b5073cfa310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Solid Waste Pickup Schedule
 ---

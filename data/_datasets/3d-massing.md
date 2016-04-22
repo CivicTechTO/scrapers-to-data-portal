@@ -1,7 +1,12 @@
 ---
+category:
+- Locations and mapping
+- Environment
+- Development and infrastructure
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This is a geospatial 3D ESRI shape / 3D CAD format file of building shapes
+  for City of Toronto
 organization: City Planning
 resources:
 - format: ''
@@ -34,7 +39,6 @@ resources:
 - format: ZIP
   name: North (dgn)
   url: http://opendata.toronto.ca/planning/3dmassing/North.zip
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=d431d477f9a3a410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: 3D Massing
 ---

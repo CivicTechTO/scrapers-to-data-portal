@@ -1,7 +1,11 @@
 ---
+category:
+- Public safety
+- Locations and mapping
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: "DGN \_file contains City of Toronto fire station locations (XY coordinates\
+  \ ) and an Excel spreadsheet with same coordinates"
 organization: Fire Services
 resources:
 - format: ZIP
@@ -16,7 +20,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=373ef5f39ad5e210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Fire Station Locations
 ---

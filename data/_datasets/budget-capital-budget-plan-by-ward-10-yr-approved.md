@@ -1,7 +1,13 @@
 ---
+category:
+- Finance
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This dataset identifies the current year approved capital budget and nine-year
+  plan budget for City of Toronto projects by City wards starting in 2010. The sub
+  project names are also provided with the approved capital budget over a 10 year
+  period.
 organization: Financial Planning
 resources:
 - format: XLS
@@ -20,7 +26,6 @@ resources:
   name: 2014 to 2023 Capital Budget & Plan by Ward
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/2014 Council Approved Projects By Ward.xlsx
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=7daf4d8e69770310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Budget - Capital Budget & Plan By Ward (10 yr Approved)
 ---

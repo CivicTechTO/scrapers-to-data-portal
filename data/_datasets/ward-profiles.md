@@ -1,7 +1,12 @@
 ---
+category:
+- Development and infrastructure
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: The 2011 Ward Profiles provide a portrait of the demographic, social and economic
+  characteristics of the people and households in each City Ward based on custom tabulations
+  of the 2011 Census and the voluntary 2011 National Household Survey of Statistics
+  Canada.
 organization: City Planning
 resources:
 - format: DOCX
@@ -22,7 +27,6 @@ resources:
 - format: XLSX
   name: City Ward and Community Council Areas - Geographic Area
   url: http://opendata.toronto.ca/it/com/Ward Profiles - WardAreas.xlsx
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=71d9c7e6e34b6410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Ward Profiles
 ---

@@ -1,7 +1,13 @@
 ---
+category:
+- Locations and mapping
+- Culture and tourism
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Provide a listing of attractions in Toronto, as determined by Visitor Services.
+  This is not necessarily a comprehensive listing, and will continue to expand over
+  time. This information has been gathered through research and day-to-day operations
+  of the Visitor Services Department.
 organization: Economic Development & Culture
 resources:
 - format: XLS
@@ -16,7 +22,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=d90ac71db136c310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Places of Interest and Toronto Attractions
 ---

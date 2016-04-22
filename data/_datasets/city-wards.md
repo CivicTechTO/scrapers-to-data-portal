@@ -1,7 +1,9 @@
 ---
+category:
+- City government
 maintainer: Geospatial Competency Centre
 maintainer_email: gcc@toronto.ca
-notes: ''
+notes: Boundaries for the City of Toronto's 44 municipal wards.
 organization: City Clerk's Office
 resources:
 - format: ZIP
@@ -16,7 +18,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=b1533f0aacaaa210VgnVCM1000006cd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: City Wards
 ---

@@ -1,7 +1,12 @@
 ---
+category:
+- Locations and mapping
+- Development and infrastructure
+- Culture and tourism
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This dataset is a predictive model for the determination of archaeological
+  potential within the City of Toronto.
 organization: City Planning
 resources:
 - format: ZIP
@@ -19,7 +24,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=6996790e6f21d210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Archaeological Potential - Interim
 ---

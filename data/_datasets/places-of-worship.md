@@ -1,7 +1,11 @@
 ---
+category:
+- Locations and mapping
+- Culture and tourism
 maintainer: Social Policy Analysis & Research
 maintainer_email: spar@toronto.ca
-notes: ''
+notes: Religious locations such as churches, synagogues, temples, ashrams, mosques,
+  etc.
 organization: Social Policy Analysis & Research
 resources:
 - format: ZIP
@@ -13,7 +17,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=8cb289fe9c18b210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Places of Worship
 ---

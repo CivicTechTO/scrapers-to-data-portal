@@ -1,7 +1,12 @@
 ---
+category:
+- Parks and recreation
+- Culture and tourism
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This dataset contains the City of Toronto's current Festivals & Events Calendar
+  promoted by Economic Development and Culture. All listings are submitted by event
+  producers.
 organization: Economic Development & Culture Division, Event Marketing & Visitor Services
   Unit
 resources:
@@ -11,7 +16,6 @@ resources:
 - format: ''
   name: Festivals and Events XML Feed
   url: http://wx.toronto.ca/festevents.nsf/tpaview?readviewentries
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=8b0689fe9c18b210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Festivals & Events
 ---

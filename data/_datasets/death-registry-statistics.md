@@ -1,7 +1,12 @@
 ---
+category:
+- Community services
+- City government
+- Business
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Statistical information about death registrations documented by staff of the
+  City Clerk's Office (Registry Services) of the City of Toronto.
 organization: City Clerk's Office
 resources:
 - format: XLS
@@ -11,7 +16,6 @@ resources:
 - format: CSV
   name: Death Registry Statistics Data
   url: http://opendata.toronto.ca/clerk/registry.service/death.csv
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=7c4da9552dbfe310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Death Registry Statistics
 ---

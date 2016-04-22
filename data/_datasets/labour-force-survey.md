@@ -1,7 +1,10 @@
 ---
+category:
+- Business
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: The labour force survey is a household survey carried out monthly by Statistics
+  Canada.
 organization: Economic Development & Culture
 resources:
 - format: PDF
@@ -29,7 +32,6 @@ resources:
 - format: ZIP
   name: "Annual Labour Force Survey Database \u2013 IVT"
   url: http://opendata.toronto.ca/it/com/lfs_ivt_annual.zip
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a040a1016117c410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Labour Force Survey
 ---

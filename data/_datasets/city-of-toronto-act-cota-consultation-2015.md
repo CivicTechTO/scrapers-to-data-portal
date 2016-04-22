@@ -1,7 +1,18 @@
 ---
+category:
+- Permits and licenses
+- Finance
+- Development and infrastructure
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: In June 2015, the Province of Ontario launched a review of the City of Toronto
+  Act, 2006 (COTA), as required by legislation. As part of the review, the Province
+  sought input from municipalities, organizations, and residents. To help make sure
+  the Province heard from Torontonians during this review, the City of Toronto conducted
+  a public consultation between October 21 and November 6, 2015 including a public
+  meeting and an online survey. The purpose of posting this data set is to create
+  a record of the consultation and the public's input.
 organization: City Manager's Office
 resources:
 - format: DOCX
@@ -16,7 +27,6 @@ resources:
   name: COTA Consultation Survey Responses
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/DOC_COTA_Consultation_Survey_Responses_2015.xlsx
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=853de2f05ec32510VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: City of Toronto Act (COTA) Consultation, 2015
 ---

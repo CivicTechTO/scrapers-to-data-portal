@@ -1,7 +1,10 @@
 ---
+category:
+- Locations and mapping
+- Community services
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Point file of locations of Rent Bank Access Centres within the City of Toronto
 organization: Shelter, Support & Housing Administration
 resources:
 - format: ZIP
@@ -16,7 +19,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=c5e189fe9c18b210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Rent Bank  Access Centres
 ---

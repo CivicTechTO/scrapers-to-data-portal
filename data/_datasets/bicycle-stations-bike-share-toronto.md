@@ -1,7 +1,14 @@
 ---
+category:
+- Transportation
+- Locations and mapping
+- Environment
+- Culture and tourism
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: The system includes 1,000 bikes, 80 Bike Share terminal locations with 1,500
+  docking points in Toronto's downtown core. View a map of Bike Share station locations
+  on the Bike Share Toronto website.
 organization: Transportation Services
 resources:
 - format: TXT
@@ -13,7 +20,6 @@ resources:
 - format: ''
   name: Bike Share - JSON
   url: http://www.bikesharetoronto.com/stations/json
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ad3cb6b6ae92b310VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Bicycle Stations (Bike Share Toronto)
 ---

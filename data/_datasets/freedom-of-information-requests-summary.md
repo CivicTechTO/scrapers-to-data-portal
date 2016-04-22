@@ -1,7 +1,11 @@
 ---
+category:
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: FOI requests are made under the Municipal Freedom of Information and Protection
+  of Privacy Act (MFIPPA) or the Personal Health Information Protection Act, 2004
+  (PHIPA). This dataset is a catalogue of Freedom of Information (FOI) requests.
 organization: City Clerk's Office
 resources:
 - format: XLS
@@ -73,7 +77,6 @@ resources:
   name: FOI Request Summary Q4 2015
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/FOIRequestsSummaryQ42015.xlsx
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=261b423c963b4310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Freedom of Information Requests Summary
 ---

@@ -1,7 +1,10 @@
 ---
+category:
+- Locations and mapping
+- Community services
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: The locations of the existing library branches within the City of Toronto.
 organization: Toronto Public Library
 resources:
 - format: XLS
@@ -10,7 +13,6 @@ resources:
 - format: KML
   name: Library Branch Locations
   url: http://www.torontopubliclibrary.ca/data/library-data.kml
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a7ae0ea14b661310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Toronto Public Library Branch Locations
 ---

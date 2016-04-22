@@ -1,7 +1,12 @@
 ---
+category:
+- Development and infrastructure
+- City government
+- Business
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This dataset includes information about applications submitted to the Committee
+  of Adjustment (C of A) for minor variances to the Zoning By-law and Consent.
 organization: City Planning
 resources:
 - format: ZIP
@@ -55,7 +60,6 @@ resources:
 - format: XLSX
   name: ReadMe (Attributes)
   url: http://opendata.toronto.ca/planning/coa/coa_attributes.xlsx
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=26b2871f6a2cc410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Committee of Adjustment Applications
 ---

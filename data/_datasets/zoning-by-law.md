@@ -1,7 +1,13 @@
 ---
+category:
+- Locations and mapping
+- Environment
+- Development and infrastructure
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: City-wide Zoning Bylaw No. 569-2013 regulates the use of land, the size and
+  location of buildings and parking across the City.
 organization: City Planning
 resources:
 - format: ZIP
@@ -13,7 +19,6 @@ resources:
 - format: ''
   name: View Data
   url: http://map.toronto.ca/maps/map.jsp?app=ZBL_CONSULT
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=5a9923e69b4a6410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Zoning By-law
 ---

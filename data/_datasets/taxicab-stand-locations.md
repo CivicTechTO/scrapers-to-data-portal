@@ -1,7 +1,13 @@
 ---
+category:
+- Transportation
+- Public safety
+- Permits and licenses
+- Locations and mapping
+- Culture and tourism
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This dataset contains the locations of approved taxicab stands in Toronto.
 organization: Municipal Licensing & Standards
 resources:
 - format: XLS
@@ -16,7 +22,6 @@ resources:
 - format: ''
   name: View Data (Zoom in to view)
   url: http://map.toronto.ca/maps/map.jsp?app=OpenData
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=51ad137135b85410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Taxicab Stand Locations
 ---

@@ -1,7 +1,12 @@
 ---
+category:
+- Transportation
+- Public safety
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: This dataset contains traffic and pedestrian volume data collected at intersections
+  where there are traffic signals. The data collected identifies 8 hour (generally
+  7:30 a.m. to 6:30 p.m. with breaks) and 24 hour vehicle and pedestrian traffic.
 organization: Transportation Services
 resources:
 - format: XLS
@@ -26,7 +31,6 @@ resources:
   name: Signalized Intersection Traffic and Pedestrian Volumes (2015)
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Signalized Intersection Traffic and Pedestrian Volume (2015).xlsx
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=417aed3c99cc7310VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: Signalized Intersection Traffic and Pedestrian Volume
 ---

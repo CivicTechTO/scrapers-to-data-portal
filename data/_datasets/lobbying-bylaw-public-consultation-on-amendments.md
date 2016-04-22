@@ -1,7 +1,10 @@
 ---
+category:
+- City government
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
-notes: ''
+notes: Public consultation regarding amendments to the Lobbying Bylaw between November
+  2015 and February 2016.
 organization: City Manager's Office
 resources:
 - format: DOCX
@@ -12,7 +15,6 @@ resources:
   name: Lobbying Bylaw Online Survey Responses
   url: http://www1.toronto.ca/City Of Toronto/Information & Technology/Open Data/Data
     Sets/Assets/Files/Lobbying Bylaw Online Survey Responses.xlsx
-schema: default
 source: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=c0e60541910a3510VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
 title: "Lobbying Bylaw \u2013 Public Consultation on Amendments"
 ---
