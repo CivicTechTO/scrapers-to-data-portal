@@ -47,7 +47,7 @@ ORG_LOGOS = {
         "Children's Services": 'https://pbs.twimg.com/profile_images/526469164651659264/eJCOnMU2_400x400.jpeg',
         'Geospatial Competency Centre': 'https://pbs.twimg.com/profile_images/499574134225907715/3ZqntHXB_400x400.jpeg',
         'City Planning': 'https://pbs.twimg.com/profile_images/378800000372590361/60a79d5a7044bd47ef162b2dca42aba1_400x400.jpeg',
-        'Social Development, Finance & Administration': 'https://pbs.twimg.com/profile_images/378800000562670282/670cd1e2a68b34049ab32f55e48da4a5_400x400.jpegi',
+        'Social Development, Finance & Administration': 'https://pbs.twimg.com/profile_images/378800000562670282/670cd1e2a68b34049ab32f55e48da4a5_400x400.jpeg',
         'Parks, Forestry & Recreation': 'https://pbs.twimg.com/profile_images/720968055153680384/lGArEG2p_400x400.jpg',
         'Employment & Social Services': 'https://pbs.twimg.com/profile_images/644235206/fb40_400x400.jpg',
         'Election Services': 'https://pbs.twimg.com/profile_images/596672804193316866/pq6LFk0W_400x400.jpg',
