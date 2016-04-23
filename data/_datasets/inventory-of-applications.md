@@ -5,7 +5,7 @@ maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: This dataset contains a consolidated inventory listing the names of applications
   used by City of Toronto divisions.
-organization: IT Strategic Planning & Architecture, Corporate I&T
+organization: Information & Technology
 resources:
 - format: XLSX
   name: Consolidated Application Inventory

@@ -6,7 +6,7 @@ maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: This dataset contains City of Toronto renewable energy installations on City-owned
   buildings.
-organization: Facilities Management - Energy and Strategic Initiatives
+organization: Facilities Management
 resources:
 - format: XLSX
   name: Renewable Energy Installation (Excel)

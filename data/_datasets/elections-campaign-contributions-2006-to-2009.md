@@ -7,7 +7,7 @@ maintainer_email: opendata@toronto.ca
 notes: This data set contains the names and postal codes of individuals, organizations
   and companies who made a financial contribution or equivalent in goods/services
   to any election campaign between the period of 2006 to 2009.
-organization: Election Services
+organization: City Clerk's Office
 resources:
 - format: XLS
   name: Campaign Contributions 2006 Readme

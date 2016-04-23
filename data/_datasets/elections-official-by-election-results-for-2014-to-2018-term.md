@@ -6,7 +6,7 @@ maintainer_email: opendata@toronto.ca
 notes: The by-election results are used to identify the candidates running, the number
   of votes each candidate received, to identify which candidate received the most
   votes, analysis and for statistical purposes.
-organization: Election Services
+organization: City Clerk's Office
 resources:
 - format: XLSX
   name: Poll By Poll 2016 TDSB Ward 21

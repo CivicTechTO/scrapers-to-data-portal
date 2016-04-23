@@ -4,7 +4,7 @@ category:
 maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: Election poll by poll results data from the 2003, 2006, 2010 and 2014 elections.
-organization: Election Services
+organization: City Clerk's Office
 resources:
 - format: ZIP
   name: 2014 Results

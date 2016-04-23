@@ -6,7 +6,7 @@ maintainer: Open Data Team
 maintainer_email: opendata@toronto.ca
 notes: This data set contains the names and postal codes of individuals, organizations
   and companies who made a financial contribution or equivalent in goods/services.
-organization: Election Services
+organization: City Clerk's Office
 resources:
 - format: ZIP
   name: Campaign Contributions 2010 Data
