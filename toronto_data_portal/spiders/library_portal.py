@@ -24,6 +24,7 @@ class LibraryPortalSpider(scrapy.Spider):
             item['resources'] = []
             item['category'] = ['Community services']
             item['maintainer'] = 'Toronto Public Library, Planning, Policy and E-Service Delivery'
+            item['maintainer_email'] = 'answerline@torontopubliclibrary.ca'
 
             unknown_filetype = ''
 
