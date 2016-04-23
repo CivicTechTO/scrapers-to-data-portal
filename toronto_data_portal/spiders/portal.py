@@ -39,6 +39,22 @@ PSEUDONYMS = {
     'Revenue Services (Utility Billing, Meter Services and Parking Tags Section)': 'Revenue Services',
 }
 
+ORG_LOGOS = {
+        'Toronto Public Library': 'https://pbs.twimg.com/profile_images/613701886332542976/LYqUsfK5_400x400.jpg',
+        '311 Toronto': 'https://pbs.twimg.com/profile_images/1166094989/7241835f-5085-42e5-ba26-782176332e5e_400x400.jpg',
+        'Fire Services': 'https://pbs.twimg.com/profile_images/2508679803/CBADGE_400x400.png',
+        'Toronto Public Health': 'https://pbs.twimg.com/profile_images/3342712317/dd791e21d4a7a140b284a8cd533db848_400x400.jpeg',
+        "Children's Services": 'https://pbs.twimg.com/profile_images/526469164651659264/eJCOnMU2_400x400.jpeg',
+        'Geospatial Competency Centre': 'https://pbs.twimg.com/profile_images/499574134225907715/3ZqntHXB_400x400.jpeg',
+        'City Planning': 'https://pbs.twimg.com/profile_images/378800000372590361/60a79d5a7044bd47ef162b2dca42aba1_400x400.jpeg',
+        'Social Development, Finance & Administration': 'https://pbs.twimg.com/profile_images/378800000562670282/670cd1e2a68b34049ab32f55e48da4a5_400x400.jpegi',
+        'Parks, Forestry & Recreation': 'https://pbs.twimg.com/profile_images/720968055153680384/lGArEG2p_400x400.jpg',
+        'Employment & Social Services': 'https://pbs.twimg.com/profile_images/644235206/fb40_400x400.jpg',
+        'Election Services': 'https://pbs.twimg.com/profile_images/596672804193316866/pq6LFk0W_400x400.jpg',
+        }
+
+ORG_LOGO_DEFAULT = 'https://pbs.twimg.com/profile_images/665208414969053185/uN82Bpqg_400x400.jpg'
+
 class PortalSpider(scrapy.Spider):
     name = 'portal'
     start_urls = ['http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD']
@@ -127,8 +143,8 @@ class PortalSpider(scrapy.Spider):
             self.seen_orgs.append(item['organization'])
 
             org = JkanOrganization()
-            org['logo'] = 'http://ajournalofmusicalthings.com/wp-content/uploads/Toronto-logo.png'
             org['title'] = item['organization']
+            org['logo'] = ORG_LOGOS.get(org['title'], ORG_LOGO_DEFAULT)
             org['official'] = True
             yield org
 
